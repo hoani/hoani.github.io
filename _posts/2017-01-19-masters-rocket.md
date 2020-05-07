@@ -1,6 +1,6 @@
 ---
 title: "A Masters in Rocket Engineering"
-excerpt: "Wouldn’t it be cool to have robot pet? I thought so too."
+excerpt: "A brief summary of my Masters thesis work in rocketry control."
 header:
   image: /assets/images/posts/masters-rocket/avionics.jpg
   teaser: /assets/images/posts/masters-rocket/avionics.jpg
