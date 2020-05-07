@@ -1,0 +1,19 @@
+---
+title: "Rob Quest"
+excerpt: "The ladies have been kidnapped; Rob to the rescue!"
+header:
+  image: /assets/images/games/banner/robquest.png
+  teaser: /assets/images/games/banner/robquest.png
+sidebar:
+  - title: '<a href="#" class="btn btn--primary">Download <i class="fab fa-fw fa-windows" aria-hidden="true"></i></a>'
+  - title: "by Hoani Bryson"
+    text: '&emsp;September 2008'
+  - title: "Features"
+    text: "- 3 Levels\n- A Whip!\n- Speed Run Mode"
+---
+
+Rob is having a great Thursday night out on the town when suddenly all the ladies are stolen by a demon truck!
+
+Having heard their plea for help, Rob springs into action to save the ladies with his trusty whip.
+
+Made for my friend Rob McGee, Happy 21st Rob!!!

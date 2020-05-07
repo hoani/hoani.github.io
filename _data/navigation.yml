@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Projects"
+    url: /collection-archive/
+  - title: "Blog"
+    url: /posts/
+  - title: "Games"
+    url: games
+  # - title: "Sitemap"
+  #   url: /sitemap/

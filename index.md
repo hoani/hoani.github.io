@@ -1,8 +1,11 @@
 ---
-title: Hoani Bryson
-layout: page
-feature_image: http://hoani.net/itsasecrettoeverybody/wp-content/uploads/2006/02/essence-child.png
+layout: home
+author_profile: true
 ---
+
+
+
+<a href="#" class="btn btn--primary align-right">Download</a>
 
 Not sure why you're here, but we got:
 * [games](games)
