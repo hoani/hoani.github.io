@@ -5,7 +5,7 @@ header:
   image: /assets/images/games/banner/seraphim-flame.png
   teaser: /assets/images/games/banner/seraphim-flame.png
 sidebar:
-  - title: '<a href="#" class="btn btn--primary">Download <i class="fab fa-fw fa-windows" aria-hidden="true"></i></a>'
+  - title: '<a href="/assets/downloads/games/SeraphimFlame.zip" class="btn btn--primary">Download <i class="fab fa-fw fa-windows" aria-hidden="true"></i></a>'
   - title: "by Hoani Bryson"
     text: '&emsp;February 2007'
   - title: "Features"

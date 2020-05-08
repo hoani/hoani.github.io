@@ -5,7 +5,7 @@ header:
   image: /assets/images/games/banner/robquest.png
   teaser: /assets/images/games/banner/robquest.png
 sidebar:
-  - title: '<a href="#" class="btn btn--primary">Download <i class="fab fa-fw fa-windows" aria-hidden="true"></i></a>'
+  - title: '<a href="/assets/downloads/games/RobQuest.zip" class="btn btn--primary">Download <i class="fab fa-fw fa-windows" aria-hidden="true"></i></a>'
   - title: "by Hoani Bryson"
     text: '&emsp;September 2008'
   - title: "Features"

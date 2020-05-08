@@ -5,7 +5,7 @@ header:
   image: /assets/images/games/banner/hanrahan.png
   teaser: /assets/images/games/banner/hanrahan.png
 sidebar:
-  - title: '<a href="#" class="btn btn--primary">Download <i class="fab fa-fw fa-windows" aria-hidden="true"></i></a>'
+  - title: '<a href="/assets/downloads/games/TheHanrahanGame.zip" class="btn btn--primary">Download <i class="fab fa-fw fa-windows" aria-hidden="true"></i></a>'
   - title: "by Hoani Bryson"
     text: '&emsp;October 2007'
   - title: "Features"

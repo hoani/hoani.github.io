@@ -5,7 +5,7 @@ header:
   image: /assets/images/games/banner/essence-child.png
   teaser: /assets/images/games/banner/essence-child.png
 sidebar:
-  - title: '<a href="#" class="btn btn--primary">Download <i class="fab fa-fw fa-windows" aria-hidden="true"></i></a>'
+  - title: '<a href="/assets/downloads/games/EssenceChild.zip" class="btn btn--primary">Download <i class="fab fa-fw fa-windows" aria-hidden="true"></i></a>'
   - title: "by Living Energy"
     text: '&emsp;February 2006'
   - title: "Features"
