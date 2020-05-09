@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "hoani.github.io"
+title                    : "Hoani.net"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hoani Bryson"
@@ -267,9 +267,9 @@ compress_html:
 
 # Collections
 collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
+  # projects:
+  #   output: true
+  #   permalink: /:collection/:path/
   posts:
     output: true
     permalink: /:collection/:path/
