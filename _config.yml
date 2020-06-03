@@ -267,9 +267,9 @@ compress_html:
 
 # Collections
 collections:
-  # projects:
-  #   output: true
-  #   permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
   posts:
     output: true
     permalink: /:collection/:path/
