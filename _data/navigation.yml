@@ -1,10 +1,10 @@
 # main links
 main:
   - title: "Projects"
-    url: /projects/
+    url: /projects
   - title: "Blog"
-    url: /posts/
+    url: /posts
   - title: "Games"
-    url: games
+    url: /games
   # - title: "Sitemap"
   #   url: /sitemap/
