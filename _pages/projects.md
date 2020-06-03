@@ -9,7 +9,7 @@ classes: wide
 
 ## Personal Projects
 
-### For the Pendulum Controlled Robot
+### Pendulum Controlled Robot
 
 * [Pendulum Control Robot](https://gitlab.com/hoani/pendulumbot) (Python-based for Beagle Bone Blue)
 * [Shalnark - Remote Control Robot App](https://github.com/hoani/shalnark) (Flutter-based)
