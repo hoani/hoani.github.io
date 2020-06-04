@@ -1,0 +1,55 @@
+## C++ Maps
+
+Include:
+```cpp
+#include <map>
+```
+
+Define a new map:
+```cpp
+std::vector<std::string, float> my_map;
+```
+
+Get data from map:
+```cpp
+int value = my_map[key];
+int value = my_map.at(key);
+```
+
+Inserting/modifying map data:
+```cpp
+my_map[new_key] = new_value;
+my_map.insert(std::pair<std::string, float>(new_key, new_value);
+```
+
+Check if the map has a key:
+```cpp
+if (my_map.find(key) != my_map.end()) { // ...
+```
+
+Remove a key/value pair from map:
+```cpp
+my_map.erase(key);
+```
+
+### Example
+
+[http://cpp.sh/4kpgp](try on cpp.sh)
+
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+int main() {
+	std::map<std::string, float> grades;
+
+	grades.insert(std::pair<std::string, float>("Hoani", 3.5f));
+	grades.insert(std::pair<std::string, float>("Emma", 2.3f));
+	grades["Indie"] =  4.9f;
+
+	for (std::pair<std::string, float> grade: grades) {
+		std::cout << grade.first << ":" << grade.second << std::endl;
+	}
+}
+```
