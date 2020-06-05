@@ -1,6 +1,10 @@
-## C++ Maps
+---
+title: "C++ Maps"
+excerpt: "Basics for using the C++ key-value pair map objects"
+classes: wide
+tags: cheatsheet cpp
+---
 
-Include:
 ```cpp
 #include <map>
 ```

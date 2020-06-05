@@ -1,4 +1,9 @@
-## C++ Vectors
+---
+title: "C++ Vector"
+excerpt: "Basics for using C++ vectors"
+classes: wide
+tags: cheatsheet cpp
+---
 
 Define a new vector:
 ```cpp
