@@ -1,6 +1,6 @@
 ---
 title: "C++ Classes"
-excerpt: "Inheritance, Virtual Functions and Interfaces"
+excerpt: "Inheritance, Virtual Functions, Interfaces and more"
 classes: wide
 tags: cheatsheet cpp
 ---
@@ -33,6 +33,22 @@ Pure virtual functions allow us to create interface specifications:
 class IVec {
 public:
   virtual float Norm() = 0;
+}
+```
+
+Member Initializer Lists
+```cpp
+class Acceleration {
+private:
+	float x;
+	float y;
+	float z;
+public:
+  Acceleration()
+		: x(0.0), y(0.0), z(9.807) // Should be in the order they are declared
+	{
+		\\...
+	}
 }
 ```
 
