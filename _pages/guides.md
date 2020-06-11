@@ -1,6 +1,6 @@
 ---
 layout: category
-title: How to go and do things
+title: Guides on how to do things
 permalink: guides
 collection: posts
 taxonomy: guide
@@ -11,3 +11,9 @@ sidebar:
   nav: "sb-guides"
 ---
 
+### Software
+
+* [C++](/guides/cpp)
+* [Rust](/guides/rust)
+
+## All of them

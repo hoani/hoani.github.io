@@ -16,4 +16,4 @@ sb-guides:
       - title: "C++"
         url: /guides/cpp
       - title: "Rust"
-        url: /docs/rust
+        url: /guides/rust
