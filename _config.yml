@@ -96,7 +96,6 @@ author:
   name             : "Hoani"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Things I've gone and made."
-  location         : "New Zealand"
   email            : "hoani.bryson@gmail.com"
   links:
     - label: "Email"
@@ -110,7 +109,7 @@ author:
       # url: "https://twitter.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/hoanibryson"
+      # url: "https://linkedin.com/in/hoanibryson"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hoani"
@@ -121,9 +120,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "hoani.bryson@gmail.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -267,9 +266,6 @@ compress_html:
 
 # Collections
 collections:
-  guides:
-    output: true
-    permalink: /:collection/:path/
   posts:
     output: true
     permalink: /:collection/:path/
@@ -294,13 +290,6 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _guides
-  - scope:
-      path: "_guides"
-      type: guides
     values:
       layout: single
       author_profile: true

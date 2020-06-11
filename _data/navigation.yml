@@ -3,10 +3,17 @@ main:
   - title: "Projects"
     url: /projects
   - title: "Blog"
-    url: /posts
+    url: /blog
   - title: "Guides"
     url: /guides
   - title: "Games"
     url: /games
   # - title: "Sitemap"
   #   url: /sitemap/
+sb-guides:
+  - title: Software
+    children:
+      - title: "C++"
+        url: /guides/cpp
+      - title: "Rust"
+        url: /docs/rust

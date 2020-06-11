@@ -5,6 +5,7 @@ classes: wide
 categories:
   - guide
   - rust
+  - rust-guide
 ---
 
 Lifetimes are defined using the `'` symbol. They ensure that references remain valid for the scope they are used in.

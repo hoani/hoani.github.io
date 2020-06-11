@@ -1,10 +1,9 @@
 ---
 layout: category
-title: How to go and do things
-permalink: guides
+title: C++ Cheatsheets
+permalink: guides/cpp
 collection: posts
-taxonomy: guide
-entries_layout: grid
+taxonomy: cpp-guide
 classes: wide
 author_profile: false
 sidebar:

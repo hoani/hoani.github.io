@@ -1,10 +1,9 @@
 ---
 layout: category
-title: How to go and do things
-permalink: guides
+title: Rust Cheatsheets
+permalink: guides/rust
 collection: posts
-taxonomy: guide
-entries_layout: grid
+taxonomy: rust-guide
 classes: wide
 author_profile: false
 sidebar:

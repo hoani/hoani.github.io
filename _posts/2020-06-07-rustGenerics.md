@@ -5,6 +5,7 @@ classes: wide
 categories:
   - guide
   - rust
+  - rust-guide
 ---
 
 Generics typically start with `<T>` by convention and are use to generalize types.
