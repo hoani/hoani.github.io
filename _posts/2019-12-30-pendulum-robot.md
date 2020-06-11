@@ -6,8 +6,7 @@ header:
   teaser: /assets/images/posts/pendulum-robot/banner.jpg
 classes: wide
 categories:
-  - engineering
-  - electronics
+  - blog
 tags:
   - python
   - robot

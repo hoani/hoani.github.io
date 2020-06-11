@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/posts/masters-rocket/avionics.jpg
 classes: wide
 categories:
-  - engineering
+  - blog
 tags:
   - python
   - rocket

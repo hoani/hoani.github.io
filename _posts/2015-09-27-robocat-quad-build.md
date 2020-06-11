@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/posts/robocat/banner.jpg
 classes: wide
 categories:
-  - engineering
+  - blog
 tags:
   - quadcopter
 gallery:

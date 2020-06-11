@@ -1,9 +1,19 @@
 ---
-layout: collection
-title: How to go and do things
+layout: category
+title: Guides on how to do things
 permalink: guides
-collection: guides
-entries_layout: list
+collection: posts
+taxonomy: guide
+entries_layout: grid
 classes: wide
+author_profile: false
+sidebar:
+  nav: "sb-guides"
 ---
 
+### Software
+
+* [C++](/guides/cpp)
+* [Rust](/guides/rust)
+
+## All of them

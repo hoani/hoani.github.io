@@ -2,7 +2,10 @@
 title: "Rust Generics"
 excerpt: "Using Generics in Rust"
 classes: wide
-tags: cheatsheet rust
+categories:
+  - guide
+  - rust
+  - rust-guide
 ---
 
 Generics typically start with `<T>` by convention and are use to generalize types.

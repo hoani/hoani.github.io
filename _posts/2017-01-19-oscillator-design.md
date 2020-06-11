@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/posts/oscillator/banner.png
 classes: wide
 categories:
-  - engineering
+  - blog
 tags:
   - electronics
   - pcb
