@@ -2,7 +2,9 @@
 title: "C++ Vector"
 excerpt: "Basics for using C++ vectors"
 classes: wide
-tags: cheatsheet cpp
+categories:
+  - guide
+  - cpp
 ---
 
 Define a new vector:

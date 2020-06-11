@@ -1,9 +1,10 @@
 ---
-layout: collection
+layout: category
 title: How to go and do things
 permalink: guides
-collection: guides
-entries_layout: list
+collection: posts
+taxonomy: guide
+entries_layout: grid
 classes: wide
 ---
 

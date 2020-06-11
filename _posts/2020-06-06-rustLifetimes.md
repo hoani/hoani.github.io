@@ -2,7 +2,9 @@
 title: "Rust Lifetime"
 excerpt: "Using Lifetimes in Rust"
 classes: wide
-tags: cheatsheet rust
+categories:
+  - guide
+  - rust
 ---
 
 Lifetimes are defined using the `'` symbol. They ensure that references remain valid for the scope they are used in.
