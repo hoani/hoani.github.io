@@ -15,8 +15,8 @@ Given a directory structure like:
 .
 +-- CMakeLists.txt
 +-- src
-|   main.cpp
-|   ...etc
+|   +-- main.cpp
+|   +-- ...etc
 ```
 
 Add the following a `CMakeLists.txt`:
