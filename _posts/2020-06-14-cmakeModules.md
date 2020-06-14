@@ -44,3 +44,5 @@ target_include_directories(bldc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 ```
 
 `target_include_directories(...)` provides include directories for anything linking to the library.
+
+The keyword `PUBLIC` states that the include directories are part of the library's interface. If the library requires an implementation only include directory, then we can specify this with `PRIVATE`. The same is true for linking libraries with `target_link_libraries`.

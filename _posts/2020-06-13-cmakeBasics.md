@@ -52,7 +52,7 @@ This will build `MyApp` (or `MyApp.exe` in Windows) in Debug mode by default. De
 
 ## Compile Options
 
-We configure compiler options using `add_compile_options(...)`.
+We configure global options using `add_compile_options(...)`.
 
 The `$<$<CONFIG:RELEASE>:OPTION>` can be used to add options based on whether you are building for debug or release.
 
@@ -60,6 +60,8 @@ By default we build in `Debug` mode. To build a `Release` binary:
 ```bash
 $ cmake --build . --config Release
 ```
+
+*Note: `add_compile_options` should only be used at the top of the root `CMakeLists.txt` for compile options which are appropriate for the entire project. For all target specific options, use `target_compile_options` or `target_compile_definitions` to limit flags to thier specific modules.*
 
 ## Setting C++ Version
 
