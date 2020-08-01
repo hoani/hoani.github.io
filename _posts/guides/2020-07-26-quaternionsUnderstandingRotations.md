@@ -36,3 +36,13 @@ The mathematics of quaternions are a little bit more involved than what I descri
 Thier inventer, William Hamilton desctibes them as quotents of two vectors, which requires $$ \Vert \widehat{q} \Vert = 1.0 $$. Therefore, $$ a $$ effectively describes how much a vector should not rotate in order to point in the direction of another vector. 
 
 A value of $$ a = 1.0 $$ indicates the two vectors making up the quaternion pointed in the same direction.
+
+### Calculating a quaternion from a vector and rotation
+
+Given a unit vector:
+
+$$ \widehat{n} = \begin{bmatrix} x \\ y \\ z \end{bmatrix} $$
+
+And an angle which we will rotate around the unit vector by, $$ \phi $$.
+
+$$ \widehat{q} = \sin\left(\frac{\phi}{2}\right) + \cos\left(\frac{\phi}{2}\right) (x\hat{i} + y\hat{j} + z\hat{k}) $$
