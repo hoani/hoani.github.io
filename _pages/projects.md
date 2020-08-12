@@ -21,12 +21,3 @@ classes: wide
 * [Protocol Specification](https://leap-protocol.github.io/)
 * [Python Implementation](https://github.com/leap-protocol/leap-py)
 * [Javascript Implementation](https://github.com/leap-protocol/leap-js)
-
-## Professional Open-source Projects
-
-* [Pl^g Blockchain](https://github.com/plugblockchain)
-* [CENNZnet Blockchain](https://github.com/cennznet)
-
-
-
-

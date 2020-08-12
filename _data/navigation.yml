@@ -12,8 +12,16 @@ main:
   #   url: /sitemap/
 sb-guides:
   - title: Software
+    url: /guides
     children:
       - title: "C++"
         url: /guides/cpp
+      - title: "Python"
+        url: /guides/python
       - title: "Rust"
         url: /guides/rust
+  - title: Engineering
+    url: /guides
+    children:
+      - title: "Mathematics"
+        url: /guides/mathematics

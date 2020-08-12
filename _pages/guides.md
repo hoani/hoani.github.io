@@ -14,6 +14,11 @@ sidebar:
 ### Software
 
 * [C++](/guides/cpp)
+* [Python](/guides/python)
 * [Rust](/guides/rust)
+
+### Engineering
+
+* [Mathematics](/guides/mathematics)
 
 ## All of them
