@@ -8,6 +8,28 @@ categories:
   - python-guide
 ---
 
+<figure class="third">
+    <a href="#simple-line-plot"><img src="/assets/images/posts/guides/matplotlib000_basic.png"></a>
+    <a href="#subplot-horizontal"><img src="/assets/images/posts/guides/matplotlib001_subplot.png"></a>
+    <a href="#subplot-vertical"><img src="/assets/images/posts/guides/matplotlib002_subplot.png"></a>
+</figure>
+<figure class="third">
+    <a href="#simple-bar-plot"><img src="/assets/images/posts/guides/matplotlib100_basic.png"></a>
+    <a href="#colored-bar-plot"><img src="/assets/images/posts/guides/matplotlib102_colors.png"></a>
+    <a href="#labelled-bar-values"><img src="/assets/images/posts/guides/matplotlib103_label.png"></a>
+</figure>
+<figure class="third">
+    <a href="#simple-mesh"><img src="/assets/images/posts/guides/matplotlib200_basic.png"></a>
+    <a href="#simple-surface"><img src="/assets/images/posts/guides/matplotlib201_surface.png"></a>
+    <a href="#colored-3d-plot"><img src="/assets/images/posts/guides/matplotlib202_colorbar.png"></a>
+</figure>
+<figure class="third">
+    <a href="#simple-animation"><img src="/assets/images/posts/guides/matplotlib300_basic.gif"></a>
+    <a href="#3d-animation"><img src="/assets/images/posts/guides/matplotlib301_3d.gif"></a>
+    <a href="#"><img /></a>
+</figure>
+
+
 ## Basic 2-Axis Plots
 
 ### Simple Line Plot
@@ -163,7 +185,7 @@ plt.bar(t, x, align='center', alpha=0.5, color=colors)
 plt.show()
 ```
 
-### Labelled Bar Plot
+### Labelled Bar Values
 
 <figure class="half">
     <img src="/assets/images/posts/guides/matplotlib103_label.png">
@@ -339,4 +361,28 @@ def animate(i):
 
 ani = animation.FuncAnimation(fig, animate, interval=50)
 plt.show()
+```
+
+## Saving Plots
+
+### Saving a figure
+
+```python
+plt.savefig("myplot.png")
+```
+or
+```python
+fig.savefig("myplot.png")
+```
+
+### Saving Animated Plots
+
+* It sometimes helps to not have `blit` set to true in the animator
+* `save_count` determines the number of frames to save
+* Will need to install imagemagick (for gifs)
+
+```python
+ani = animation.FuncAnimation(
+    fig, animate, interval=50, save_count=40)
+ani.save('myAnimation.gif', writer='imagemagick', dpi=64)
 ```
