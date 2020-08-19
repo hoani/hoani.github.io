@@ -26,7 +26,7 @@ categories:
 <figure class="third">
     <a href="#simple-animation"><img src="/assets/images/posts/guides/matplotlib/300_basic.gif"></a>
     <a href="#3d-animation"><img src="/assets/images/posts/guides/matplotlib/301_3d.gif"></a>
-    <a href="#"><img /></a>
+    <a href="#style-sheets"><img src="/assets/images/posts/guides/matplotlib/401_five.png"></a>
 </figure>
 
 
@@ -386,3 +386,41 @@ ani = animation.FuncAnimation(
     fig, animate, interval=50, save_count=40)
 ani.save('myAnimation.gif', writer='imagemagick', dpi=64)
 ```
+
+## Style Sheets
+
+See [MatplotLib style sheet](https://matplotlib.org/3.1.1/gallery/style_sheets/style_sheets_reference.html) docs.
+
+<figure class="half">
+    <img src="/assets/images/posts/guides/matplotlib/400_dark.png">
+    <img src="/assets/images/posts/guides/matplotlib/401_five.png"> 
+</figure>
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+t = np.linspace(-np.pi, np.pi, 101)
+theta = np.linspace(-np.pi, np.pi, 8)
+
+x = np.array([t, ] * 8).transpose()
+y = np.sin(x + np.array([theta, ] * 101))
+
+with plt.style.context("dark_background"):
+    plt.plot(x, y, '-')
+    plt.show()
+```
+
+More styles:
+
+<figure class="half">
+    <img src="/assets/images/posts/guides/matplotlib/402_ggplot.png">
+    <img src="/assets/images/posts/guides/matplotlib/403_seaborn.png">
+</figure>
+
+<figure class="half">
+    <img src="/assets/images/posts/guides/matplotlib/404_pastel.png">
+    <img src="/assets/images/posts/guides/matplotlib/405_colorblind.png">
+</figure>
+
+
