@@ -9,23 +9,23 @@ categories:
 ---
 
 <figure class="third">
-    <a href="#simple-line-plot"><img src="/assets/images/posts/guides/matplotlib000_basic.png"></a>
-    <a href="#subplot-horizontal"><img src="/assets/images/posts/guides/matplotlib001_subplot.png"></a>
-    <a href="#subplot-vertical"><img src="/assets/images/posts/guides/matplotlib002_subplot.png"></a>
+    <a href="#simple-line-plot"><img src="/assets/images/posts/guides/matplotlib/000_basic.png"></a>
+    <a href="#subplot-horizontal"><img src="/assets/images/posts/guides/matplotlib/001_subplot.png"></a>
+    <a href="#subplot-vertical"><img src="/assets/images/posts/guides/matplotlib/002_subplot.png"></a>
 </figure>
 <figure class="third">
-    <a href="#simple-bar-plot"><img src="/assets/images/posts/guides/matplotlib100_basic.png"></a>
-    <a href="#colored-bar-plot"><img src="/assets/images/posts/guides/matplotlib102_colors.png"></a>
-    <a href="#labelled-bar-values"><img src="/assets/images/posts/guides/matplotlib103_label.png"></a>
+    <a href="#simple-bar-plot"><img src="/assets/images/posts/guides/matplotlib/100_basic.png"></a>
+    <a href="#colored-bar-plot"><img src="/assets/images/posts/guides/matplotlib/102_colors.png"></a>
+    <a href="#labelled-bar-values"><img src="/assets/images/posts/guides/matplotlib/103_label.png"></a>
 </figure>
 <figure class="third">
-    <a href="#simple-mesh"><img src="/assets/images/posts/guides/matplotlib200_basic.png"></a>
-    <a href="#simple-surface"><img src="/assets/images/posts/guides/matplotlib201_surface.png"></a>
-    <a href="#colored-3d-plot"><img src="/assets/images/posts/guides/matplotlib202_colorbar.png"></a>
+    <a href="#simple-mesh"><img src="/assets/images/posts/guides/matplotlib/200_basic.png"></a>
+    <a href="#simple-surface"><img src="/assets/images/posts/guides/matplotlib/201_surface.png"></a>
+    <a href="#colored-3d-plot"><img src="/assets/images/posts/guides/matplotlib/202_colorbar.png"></a>
 </figure>
 <figure class="third">
-    <a href="#simple-animation"><img src="/assets/images/posts/guides/matplotlib300_basic.gif"></a>
-    <a href="#3d-animation"><img src="/assets/images/posts/guides/matplotlib301_3d.gif"></a>
+    <a href="#simple-animation"><img src="/assets/images/posts/guides/matplotlib/300_basic.gif"></a>
+    <a href="#3d-animation"><img src="/assets/images/posts/guides/matplotlib/301_3d.gif"></a>
     <a href="#"><img /></a>
 </figure>
 
@@ -35,7 +35,7 @@ categories:
 ### Simple Line Plot
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib000_basic.png">
+    <img src="/assets/images/posts/guides/matplotlib/000_basic.png">
     <img/>
 </figure>
 
@@ -52,7 +52,7 @@ plt.show()
 ### Subplot Horizontal
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib001_subplot.png">
+    <img src="/assets/images/posts/guides/matplotlib/001_subplot.png">
     <img/>
 </figure>
 
@@ -75,7 +75,7 @@ plt.show()
 ### Subplot Vertical
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib002_subplot.png">
+    <img src="/assets/images/posts/guides/matplotlib/002_subplot.png">
     <img/>
 </figure>
 
@@ -100,8 +100,8 @@ plt.show()
 See the [real python](https://realpython.com/python-matplotlib-guide/#:~:text=A%20%E2%80%9Chierarchy%E2%80%9D%20here%20means%20that,can%20contain%20multiple%20Axes%20objects.) guide on matplotlib's figure/axes/axis heirachy.
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib003_figures.png">
-    <img src="/assets/images/posts/guides/matplotlib004_figures.png">
+    <img src="/assets/images/posts/guides/matplotlib/003_figures.png">
+    <img src="/assets/images/posts/guides/matplotlib/004_figures.png">
 </figure>
 
 ```python
@@ -130,7 +130,7 @@ plt.show()
 ### Simple Bar Plot
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib100_basic.png">
+    <img src="/assets/images/posts/guides/matplotlib/100_basic.png">
     <img/>
 </figure>
 
@@ -148,7 +148,7 @@ plt.show()
 ### Labelled Bar Plot
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib101_labels.png">
+    <img src="/assets/images/posts/guides/matplotlib/101_labels.png">
     <img/>
 </figure>
 
@@ -168,7 +168,7 @@ plt.show()
 See [Matplotlib Color Guide](https://matplotlib.org/3.1.0/gallery/color/named_colors.html).
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib102_colors.png">
+    <img src="/assets/images/posts/guides/matplotlib/102_colors.png">
     <img/>
 </figure>
 
@@ -188,7 +188,7 @@ plt.show()
 ### Labelled Bar Values
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib103_label.png">
+    <img src="/assets/images/posts/guides/matplotlib/103_label.png">
     <img/>
 </figure>
 
@@ -221,7 +221,7 @@ plt.show()
 ### Simple Mesh
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib200_basic.png">
+    <img src="/assets/images/posts/guides/matplotlib/200_basic.png">
     <img/>
 </figure>
 
@@ -243,7 +243,7 @@ plt.show()
 ### Simple Surface
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib201_surface.png">
+    <img src="/assets/images/posts/guides/matplotlib/201_surface.png">
     <img/>
 </figure>
 
@@ -271,7 +271,7 @@ plt.show()
 See [Matplotlib colormaps](https://matplotlib.org/tutorials/colors/colormaps.html?highlight=colormaps) for a list of avaliable colormaps.
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib202_colorbar.png">
+    <img src="/assets/images/posts/guides/matplotlib/202_colorbar.png">
     <img/>
 </figure>
 
@@ -299,7 +299,7 @@ plt.show()
 ### Simple Animation
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib300_basic.gif">
+    <img src="/assets/images/posts/guides/matplotlib/300_basic.gif">
     <img/>
 </figure>
 
@@ -334,7 +334,7 @@ plt.show()
 ### 3D Animation
 
 <figure class="half">
-    <img src="/assets/images/posts/guides/matplotlib301_3d.gif">
+    <img src="/assets/images/posts/guides/matplotlib/301_3d.gif">
     <img/>
 </figure>
 
