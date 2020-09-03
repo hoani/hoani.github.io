@@ -11,7 +11,7 @@ categories:
 <figure class="third">
     <a href="#simple-line-plot"><img src="/assets/images/posts/guides/matplotlib/000_basic.png"></a>
     <a href="#subplot-horizontal"><img src="/assets/images/posts/guides/matplotlib/001_subplot.png"></a>
-    <a href="#subplot-vertical"><img src="/assets/images/posts/guides/matplotlib/002_subplot.png"></a>
+    <a href="#subplot-gridspec"><img src="/assets/images/posts/guides/matplotlib/005_gridspec.png"></a>
 </figure>
 <figure class="third">
     <a href="#simple-bar-plot"><img src="/assets/images/posts/guides/matplotlib/100_basic.png"></a>
@@ -90,6 +90,36 @@ y = np.cos(t)
 plt.subplot(2, 1, 1)
 plt.plot(t, x)
 plt.subplot(2, 1, 2)
+plt.plot(t, y)
+
+plt.show()
+```
+
+### Subplot Gridspec
+
+<figure class="half">
+    <img src="/assets/images/posts/guides/matplotlib/005_gridspec.png">
+    <img/>
+</figure>
+
+```python
+from matplotlib.gridspec import GridSpec
+import matplotlib.pyplot as plt
+import numpy as np
+
+t = np.arange(-np.pi*0.9, np.pi*0.9, np.pi/64.0)
+x = np.sin(t)
+y = np.cos(t)
+z = np.tan(t/2.0)
+
+fig = plt.figure(figsize=(7, 5))
+gs = GridSpec(2, 2, figure=fig)
+
+fig.add_subplot(gs[:, 0])
+plt.plot(t, z)
+fig.add_subplot(gs[0, 1])
+plt.plot(t, x)
+fig.add_subplot(gs[1, 1])
 plt.plot(t, y)
 
 plt.show()
