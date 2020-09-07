@@ -2,7 +2,6 @@
 title: "Lagrange's Equations"
 excerpt: "Useful formula"
 toc: true
-permalink: "/math/"
 categories:
   - guide
   - mathematics
