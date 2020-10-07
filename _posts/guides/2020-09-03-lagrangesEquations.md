@@ -1,6 +1,6 @@
 ---
 title: "Lagrange's Equations"
-excerpt: "Useful formula"
+excerpt: "Determine a system of equations from Kinetic and Potential energy"
 toc: true
 categories:
   - guide
