@@ -64,17 +64,10 @@ Dr Chris Hann
 
 My thesis covered aerodynamics, system identification, mathematical modelling and control theory. The thesis was another achievement of the UC rocketry group (www.ucrocketry.org). Our supervisor, Dr Chris Hann, provides the overall vision and direction of the research group.
 
-In the group I headed avionic development. This involved half a year of electronic design and embedded firmware development. I also did some work in 3D CAD designing rocket parts to be machined or 3D printed. Rapid prototyping was a core component of our research and our group maintained an Ultimaker II 3D printer which accelerated our research and launch frequency.
+In the group I headed avionics development. This involved half a year of electronic design and embedded firmware development. I also did some work in 3D CAD designing rocket parts to be machined or 3D printed. Rapid prototyping was a core component of our research and our group maintained an Ultimaker II 3D printer which accelerated our research and launch frequency.
 
 Rocket launches are stressful. After spending months preparing the avionics, airframe, control algorithms, performing wind tunnel tests and countless simulations, the results of your work are determined by the success of a flying pipe travelling at the speed of sound which starts falling to earth 20 seconds after it left. There are many things that can go wrong.
 
-We used the post-mortem concept that I borrowed from Jack Ganssle (often called retrospective in agile). After each launch we would go around the table and ask:
-
-* What was good?
-* What was bad?
-
-We then came up with actions to solidify the good and remove the bad. After five launch post-mortems, our launches went from being frantic and stressful to having tight organisation with strong teamwork where we could rely on our launch schedules.
-
-Two papers, a thesis and eight months have passed; I am now working for a company that designs air quality instrumentation. Using the skills I learnt in my master’s project, I improve the performance of our sensor systems using a combination of advanced math and software. The key advantage of this approach is that the improvement is free; we ship better sensors without changing anything but the software algorithms.
+UC Rocketry is one of these rare groups where the team pulls together and achieves amazing results in very short time periods. I have never seen something as effective in industry yet; but I hope I will again someday - wouldn't it be lovely to be part of a great team and make money while doing it?
 
 {% include gallery %}
