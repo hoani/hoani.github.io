@@ -25,7 +25,7 @@ $$ \theta = \cos^{-1} ( \widehat{v} \cdot \widehat{w} ) $$
 
 The quaternion can then be calculated directly with $$ \widehat{r} $$ and $$ \theta $$:
 
-$$ \widehat{q} = \sin\left(\frac{\theta}{2}\right) + \cos\left(\frac{\theta}{2}\right) \frac{\widehat{r}}{\parallel\widehat{r}\parallel} \cdot \begin{bmatrix} \hat{i} \\ \hat{j} \\ \hat{k} \end{bmatrix} $$
+$$ \widehat{q} = \cos\left(\frac{\theta}{2}\right) + \sin\left(\frac{\theta}{2}\right) \frac{\widehat{r}}{\parallel\widehat{r}\parallel} \cdot \begin{bmatrix} \hat{i} \\ \hat{j} \\ \hat{k} \end{bmatrix} $$
 
 ### Quaternion Conjugates
 

@@ -2,6 +2,14 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$primary-color: #4fa4ff;
+
+
+
+body {
+    background-image: url("/assets/images/bg.png")
+}
+
 .rounded-corners {
     border-radius: 5px
 }

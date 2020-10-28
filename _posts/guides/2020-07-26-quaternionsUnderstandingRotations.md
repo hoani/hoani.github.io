@@ -45,4 +45,4 @@ $$ \widehat{n} = \begin{bmatrix} x \\ y \\ z \end{bmatrix} $$
 
 And an angle which we will rotate around the unit vector by, $$ \phi $$.
 
-$$ \widehat{q} = \sin\left(\frac{\theta}{2}\right) + \cos\left(\frac{\theta}{2}\right) (x\hat{i} + y\hat{j} + z\hat{k}) $$
+$$ \widehat{q} = \cos\left(\frac{\theta}{2}\right) + \sin\left(\frac{\theta}{2}\right) (x\hat{i} + y\hat{j} + z\hat{k}) $$

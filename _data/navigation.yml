@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Projects"
-    url: /projects
   - title: "Blog"
     url: /blog
   - title: "Guides"
@@ -25,3 +23,5 @@ sb-guides:
     children:
       - title: "Mathematics"
         url: /guides/mathematics
+      - title: "Matlab/Octave"
+        url: /guides/octave

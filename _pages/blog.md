@@ -6,5 +6,7 @@ collection: posts
 entries_layout: grid
 taxonomy: blog
 classes: wide
+header:
+  image: /assets/images/pages/blog/banner.jpg
 ---
 

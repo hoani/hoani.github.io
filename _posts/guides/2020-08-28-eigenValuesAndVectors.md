@@ -5,6 +5,7 @@ toc: true
 categories:
   - guide
   - mathematics
+  - octave-guide
 ---
 
 ## Overview

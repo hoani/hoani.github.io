@@ -2,6 +2,7 @@
 title: "Matplotlib Cheatsheet"
 excerpt: "A bunch of example scripts to get matplotlib plotting stuff"
 toc: true
+permalink: "/matplotlib/"
 categories:
   - guide
   - python
@@ -152,6 +153,7 @@ ax2 = fig2.add_subplot()
 ax2.plot(t, y, 'r')
 ax2.set_title("Cosine")
 
+plt.tight_layout()
 plt.show()
 ```
 
