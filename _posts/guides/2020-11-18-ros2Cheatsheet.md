@@ -21,6 +21,20 @@ ros2 param list
 
 Where `-t` will add the types in square brackets.
 
+### Nodes
+
+Run a `<pkg>::<executable>` node
+
+```sh
+ros2 run <pkg> <executable>
+```
+
+Set the `<log-level>` (`DEBUG`, `INFO`, `WARN`, `ERROR` or `FATAL`):
+
+```sh
+ros2 run <pkg> <executable> --ros-args --log-level <log-level>
+```
+
 ### Topics
 
 Subscribe to and echo `<topic-name>`:
@@ -135,3 +149,42 @@ ros2 param dump <node> # Saves params to <node>.yaml
 ros2 run <pkg> <executable> \
     --ros-args --params-file <node>.yaml
 ```
+
+### Bag - data recording
+
+Record `<topics>`:
+```sh
+ros2 bag record <topic-0> [<topic-1>] ... [<topic-N>]
+ros2 bag record -o <name> <topic-0> [<topic-1>] ... [<topic-N>]
+```
+
+Use the `-o` flag to set a custome bag `<name>`. The default is `rosbag2_yyyy_MM_dd-HH_mm_ss`.
+
+Get information about bag `<name>`:
+```sh
+ros2 bag info <name>
+```
+
+Play the information in bag `<name>`:
+```sh
+ros2 bag play <name>
+```
+
+### Tools
+
+`rqt_console` monitors log messages:
+```sh
+ros2 run rqt_console rqt_console
+```
+
+`rqt_graph` shows the current ROS graph:
+```sh
+rqt_graph
+```
+
+`launch` a bunch of nodes defined in a `<launch-script>.py`, see [launch tutorial](https://index.ros.org/doc/ros2/Tutorials/Launch-Files/Creating-Launch-Files/#ros2launch) for more details
+```sh
+ros2 launch <launch-script>.py
+ros2 launch <pkg> <launch-script>.py
+```
+
