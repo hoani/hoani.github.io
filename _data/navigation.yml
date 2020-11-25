@@ -25,3 +25,5 @@ sb-guides:
         url: /guides/mathematics
       - title: "Matlab/Octave"
         url: /guides/octave
+      - title: "Electronics"
+        url: /guides/electronics

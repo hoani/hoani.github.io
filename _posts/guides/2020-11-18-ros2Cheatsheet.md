@@ -6,6 +6,8 @@ categories:
   - guide
   - cpp
   - cpp-guide
+  - electronics
+  - electronics-guide
 ---
 
 ### Listing stuff

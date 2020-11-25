@@ -1,9 +1,9 @@
 ---
 layout: category
-title: Rust Cheatsheets
-permalink: guides/rust
+title: Electronics and Embedded
+permalink: guides/electronics
 collection: posts
-taxonomy: rust-guide
+taxonomy: electronics
 entries_layout: grid
 classes: wide
 author_profile: false
