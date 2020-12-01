@@ -18,6 +18,8 @@ sb-guides:
         url: /guides/python
       - title: "Rust"
         url: /guides/rust
+      - title: "Golang"
+        url: /guides/golang
   - title: Engineering
     url: /guides
     children:
