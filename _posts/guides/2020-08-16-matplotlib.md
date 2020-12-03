@@ -455,4 +455,30 @@ More styles:
     <img src="/assets/images/posts/guides/matplotlib/405_colorblind.png">
 </figure>
 
+## Some nice tricks
 
+<figure class="half">
+    <img src="/assets/images/posts/guides/matplotlib/500_twinx.png">
+</figure>
+
+* `twinx()` allows us to plot on a different y-scale
+* `tight_layout()` rearranges plot elements so they fit nicely
+
+```py
+import matplotlib.pyplot as plt
+import numpy as np
+
+t = np.arange(-np.pi, np.pi, np.pi/64.0)
+x = np.sin(t)
+y = 10*np.cos(t)
+
+fig1 = plt.figure()
+ax1 = fig1.add_subplot()
+ax1.plot(t, x, 'g')
+ax1.set_ylabel("Sinusoid")
+ax2 = ax1.twinx()
+ax2.plot(t, y, ':r')
+ax2.set_ylabel("Cosine")
+fig1.tight_layout()
+plt.show()
+```
