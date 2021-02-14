@@ -1,6 +1,6 @@
 ---
-title: "Go basics cheatsheet"
-excerpt: "Basic cheatsheet for golang"
+title: "Go cheatsheet"
+excerpt: "Cheatsheet for golang"
 toc: true
 categories:
   - guide
@@ -175,3 +175,19 @@ default:       // runs if nothing is ready
 time.Tick(Duration)  // periodic channel
 time.After(Duration) // periodic channel
 ```
+
+## Enums
+
+Use `iota`:
+
+```go
+type Commands int
+
+const (
+    Sit Commands = iota
+    Fetch
+    RollOver
+)
+```
+
+This [stack exchange answer](https://stackoverflow.com/questions/14426366/what-is-an-idiomatic-way-of-representing-enums-in-go) details some more advanced techniques including bitfield enumeration.
