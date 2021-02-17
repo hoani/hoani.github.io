@@ -27,6 +27,14 @@ func TestProportionalGain(t *testing.T) {
 }
 ```
 
+```sh
+go test          # Run all tests in this package
+go test -v       # Run all tests with verbose output
+go test -run=Pro   # Run tests which contain `Pro`
+go test -count=5 # Repeat tests 5 times
+go test -count=1 # Does not use cached results
+```
+
 ## Test Functions
 
 Are declared with `Test` prefixed to the name and takes an argument of type `*testing.T` 
