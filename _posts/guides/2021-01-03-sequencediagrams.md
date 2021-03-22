@@ -4,10 +4,7 @@ excerpt: "Sequence Diagram Cheatsheet"
 toc: true
 categories:
   - guide
-  - golang-guide
-  - rust-guide
-  - python-guide
-  - cpp-guide
+  - software-guide
 ---
 
 Sequence diagrams show process flow.

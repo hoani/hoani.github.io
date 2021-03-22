@@ -4,8 +4,7 @@ excerpt: ""
 toc: true
 categories:
   - guide
-  - cpp
-  - cpp-guide
+  - software-guide
 ---
 
 ## Command Line

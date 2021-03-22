@@ -3,6 +3,7 @@ layout: category
 title: Guides on how to do things
 permalink: guides
 collection: posts
+classes: wide
 taxonomy: guide
 entries_layout: grid
 author_profile: false
@@ -13,6 +14,8 @@ sidebar:
 
 ### Software
 
+[![full](/assets/images/pages/guides/software-small.png)](/guides/software)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![full](/assets/images/pages/guides/cpp-small.png)](/guides/cpp)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![full](/assets/images/pages/guides/python-small.png)](/guides/python)

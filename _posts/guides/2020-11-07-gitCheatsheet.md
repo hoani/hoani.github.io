@@ -4,7 +4,7 @@ excerpt: "Useful git commands"
 toc: true
 categories:
   - guide
-  - guide-software
+  - software-guide
 ---
 
 ### Branches

@@ -12,6 +12,8 @@ sb-guides:
   - title: Software
     url: /guides
     children:
+      - title: "General"
+        url: /guides/software
       - title: "C++"
         url: /guides/cpp
       - title: "Python"

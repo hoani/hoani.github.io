@@ -8,6 +8,7 @@ categories:
   - python-guide
   - cpp
   - cpp-guide
+  - software-guide
 ---
 
 Regex tester: [regextester.com](https://www.regextester.com/)
