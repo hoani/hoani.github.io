@@ -51,7 +51,7 @@ The following notes are from [Martin Fowler's Refactoring](https://martinfowler.
 * Break a block of code down into "phases" based on responsibilities.
 * Ideally different responsibilities are grouped making other refactors easier.
 
-### Encapsulation Refactors
+### Encapsulation
 
 #### Encapsulate Record
 
@@ -94,7 +94,7 @@ The following notes are from [Martin Fowler's Refactoring](https://martinfowler.
 
 * Replace the body of an algorithm with another algorithm
 
-### Moving Features Refactors
+### Moving Features
 
 #### Move Function
 
@@ -152,6 +152,38 @@ The following notes are from [Martin Fowler's Refactoring](https://martinfowler.
 #### Change Value to Reference
 
 * Inverse of "Change Reference to Value" when we want value updates to affect all consumers
+
+### Conditional Logic
+
+#### Decompose Conditional
+
+* Apply extract function to conditional statements/conditional bodies to make them read better
+
+#### Consolidate Conditional Expression
+
+* Consolidate a series of related checks into a function which describes the related meaning of the checks
+
+#### Replace Nested Conditional with Guard Clauses
+
+* Use guard clauses to keep unexpected behaviour documented outside of the expected behaviour
+
+#### Replace Conditional with Polymorphism
+
+* Add structure and extendability to complex contitional logic by putting the conditional behaviour in subclasses instead
+
+#### Introduce Special Case
+
+* Uses a special case subclass handle special casses of a class
+* Null/"unknown" are common targets for this
+
+#### Introduce Assertion
+
+* Communicate assumptions through assertions
+
+### Refactoring APIs
+
+#### Separate Query from Modifier
+
 
 
 
