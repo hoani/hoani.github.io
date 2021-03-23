@@ -1,6 +1,6 @@
 ---
-title: "Regex"
-excerpt: "Regex cheatsheet"
+title: "Regex Cheatsheet"
+excerpt: "Regex reference with Python/Cpp examples"
 toc: true
 categories:
   - guide

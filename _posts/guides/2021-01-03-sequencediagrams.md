@@ -1,6 +1,6 @@
 ---
 title: "Sequence Diagrams"
-excerpt: "Sequence Diagram Cheatsheet"
+excerpt: "Sequence Diagram Reference"
 toc: true
 categories:
   - guide

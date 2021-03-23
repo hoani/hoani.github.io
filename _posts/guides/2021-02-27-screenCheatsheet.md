@@ -1,6 +1,6 @@
 ---
 title: "Screen cheatsheet"
-excerpt: ""
+excerpt: "Simple screen command reference"
 toc: true
 categories:
   - guide

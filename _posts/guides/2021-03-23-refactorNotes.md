@@ -1,6 +1,6 @@
 ---
 title: "Refactoring Notes"
-excerpt: ""
+excerpt: "Reference from reading Martin Fowler's Refactoring book"
 toc: true
 categories:
   - guide
@@ -8,6 +8,37 @@ categories:
 ---
 
 The following notes are from [Martin Fowler's Refactoring](https://martinfowler.com/books/refactoring.html)
+
+## Smells
+
+Smells are indicators of when to refactor. The following are just notes I took when reading through Refactoring.
+
+| Smell | Description |
+| ----- | ----------- |
+| Mysterious Name | When it isn't obvious what something does from its name. Somtimes a sign that the design itself has issues. |
+| Duplicated Code | Sometimes hides subtle differences between copies. Hard to maintain if duplicates are meant to stay in sync. |
+| Long Function | Often a result of a function doing too much. Can be hard to name descriptively and hard to understand. |
+| Long Parameter List | Long parameter lists obscure the meaning of a function. |
+| Global Data | Hard to trace the source of unexpected changes. |
+| Mutable Data | Unexpected changes can cause hard to detect and infrequent failures. |
+| Divergent Change | The opposite of Single Responsibility Principle. Modules should only have one reason to change. |
+| Shotgun Surgery | When responsibilities are spread across classes. E.g. multiple classes perfroming database access. |
+| Feature Envy | When a function interfaces with fields/functions of another class more than its own. A sign that the function might be in the wrong class. |
+| Data Clumps | Groups of data which travel together. Opportunity for grouping into a class. |
+| Primitive Obsession | Using primitives to represent something which could be better represented as a class. E.g. date strings, currency, etc. |
+| Repeated Switches | When there are several of the same switch logic. Possibly a sign that it's time to use polymorphism. |
+| Loops | Loop logic doesn't always communicate intent well. Pipelines are more descriptive. |
+| Lazy Element | A class that won't lose meaning if replaced by a function. A function that won't lose meaning if replaced by a statement. |
+| Speculative Generality | Adding behaviour which doesn't have a client yet. Bloats the code base. |
+| Temporary Field | An object should be expected to use all of its fields. A temporary field is only used by some objects. |
+| Message Chains | When a client recursively requests object access. E.g. `student.School().Address().PostCode()` |
+| Middle Man | When a class is delegating most of its behaviour to another class. |
+| Insider Trading | Classes which communicate too much. Most class behaviour is better encapsulated. |
+| Large Class | A sign of either duplicated code, or a class having multiple reasons to change. |
+| Alternative Classes with Different Interfaces | Two classes which could share an interface but don't. Sharing an interface simplifies client code. |
+| Data Class | A data class only has setters/getters. Useful manipulations are clearly being performed elsewhere. |
+| Refused Bequest | When a subclass only uses a fraction of inherited data/functionality. A sign that the inheritance model is incorrect. |
+
 
 ## Refactorings
 
