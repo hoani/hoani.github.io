@@ -225,3 +225,55 @@ Replace Function with Command
 Replace Command with Function
 
 * Inverse of "Replace Function with Command"
+
+### Dealing with Inheritance
+
+Pull Up Method
+
+* Pull up a method from the subclasses into the superclass
+* Useful when subclasses share a method which makes more sense in the superclass
+
+Pull Up Field
+
+* Pull up a field from the subclasses into the superclass
+
+Pull Up Constructor Body
+
+* Move useful statements shared in subclasses into the superclass constructor
+
+Push Down Method
+
+* Push down a method from the superclass into the subclass(es)
+* Useful when superclasses have methods that are more specific to only some/one subclass
+
+Push Down Field
+
+* Push down a field from the superclass into the subclass(es)
+
+Replace Type Code with Subclasses
+
+* Use subclasses instead of a type field
+* Allows breaking up specific fields and applying "Replace Conditional with Polymorphism"
+* If the class already has subclasses, can make a Type class with its subclasses and behaviour instead
+
+Remove Subclass
+
+* Absorb a subclass doing too little into its superclass
+
+Extract Superclass
+
+* Absorb shared behaviour between subclasses into the superclass
+
+Collapse Heirachy
+
+* Merge a subclass/superclass pair together
+* Useful when differences are trivial
+
+Replace Subclass with Delegate
+
+* Use a delegate (another object) which provides the functionality of the removed subclass
+* Enables object composition over inhertance
+
+Replace Superclass with Delegate
+
+* Inheritance can couple functions which aren't important to the subclass; when this happens, use a delegate instead
