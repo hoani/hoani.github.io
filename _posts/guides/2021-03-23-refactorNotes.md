@@ -11,7 +11,7 @@ The following notes are from [Martin Fowler's Refactoring](https://martinfowler.
 
 ## Refactorings
 
-### Basic
+### Common Refactors
 
 #### Extract Function
 
@@ -52,4 +52,110 @@ The following notes are from [Martin Fowler's Refactoring](https://martinfowler.
 * Ideally different responsibilities are grouped making other refactors easier.
 
 ### Encapsulation Refactors
+
+#### Encapsulate Record
+
+* Replace structures (aka "records") with classes and accessors
+* Allows consistency for accessing derived data
+
+#### Encapsulate Collection
+
+* Collections include arrays, maps, dictionaries, etc.
+
+#### Replace Primitive with Object
+
+* Most primities have additional meaning which isn't represented precisely by the primitive type
+* Allows applying additional behaviour to the object
+
+#### Replace Temporary with Query
+
+* Replace temporary variables holding computations with a query
+
+#### Extract Class
+
+* Break up a class with multiple responsibilieites
+* Look for methods and data that are strongly linked
+
+#### Inline Class
+
+* Combines two classes when they share a single responsibility anyway
+* Also a good inbetween refactor if the responsibilities should be split differently
+
+#### Hide Delegate
+
+* Creates a "delegating method" to encapsulate the delegates used by a class
+* e.g. a class `Person` has a delegate structure `Education`, instead of allowing external users to access `person.education.grade`, provide `Person::Grade()` instead
+
+#### Hide Middleman
+
+* Inverse of "Hide Delegate", useful when a class has unneccessary encapsulation of classes the user already works with
+
+#### Substitute Algorithm
+
+* Replace the body of an algorithm with another algorithm
+
+### Moving Features Refactors
+
+#### Move Function
+
+* Move a function from one class to another
+
+#### Move Field
+
+* Move a field from one class to another
+
+#### Move Statements into Function
+
+* Move common external statements into a function
+
+#### Move Statemenets into Caller
+
+* The inverse of "Move Statements into Function"
+
+#### Replace Inline Code with Function Call
+
+* Replace a some statements with a pre-existing function call that does the same thing
+
+#### Slide Statements
+
+* Move related statements together
+
+#### Split Loop
+
+* Breaks up loops with multiple responsibilities
+* Makes loops easier to understand and use
+
+#### Replace Loop with Pipeline
+
+* Improves the expressiveness of the data transform
+
+#### Remove Dead Code
+
+### Organisizing Data
+
+#### Split Variable
+
+* When a variable is used for more than one responsibility, split it so that it handles its individual responsibilities
+
+#### Rename Field
+
+* Rename fields of a struct/class for comprehension
+
+#### Replace Derived Varable with Query
+
+* Query computations are safer and more repeatable than derived variables
+
+#### Change Reference to Value
+
+* Make fields values instead of references to take control of when they change
+
+#### Change Value to Reference
+
+* Inverse of "Change Reference to Value" when we want value updates to affect all consumers
+
+
+
+
+
+
 
