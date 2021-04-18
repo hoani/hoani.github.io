@@ -41,6 +41,19 @@ To only step 1 assembly instruction at a time, use `stepi`.
 (gdb) si
 ```
 
+To step over (rather than into):
+
+```sh
+(gdb) next
+(gdb) n
+```
+
+To step out of the current function:
+
+```sh
+(gdb) finish
+```
+
 Use `continue` to run to the next breakpoint.
 
 ```sh
@@ -55,6 +68,20 @@ Use `break` to set a breakpoint at entry to `<function>`.
 (gdb) b <function>
 ```
 
+Set a breakpoint at a particular file on a particular line.
+
+```sh
+(gdb) break <file>:<ln>
+(gdb) break main.rs:14
+```
+
+To disable and enable breakpoints, use the breakpoint numbers:
+
+```sh
+(gdb) disable 1
+(gdb) enable 1
+```
+
 A value of a local variable can be printed with `print`. Expressions can also be evaluated
 
 ```sh
@@ -63,11 +90,23 @@ A value of a local variable can be printed with `print`. Expressions can also be
 (gdb) print <a + b>
 ```
 
-The value of all local variables can be printed with `info locals`:
+To show the value of all local variables:
 
 ```sh
 (gdb) info locals
 (gdb) i locals
+```
+
+To show function args:
+
+```sh
+(gdb) info args
+```
+
+To set the value of a local:
+
+```sh
+(gdb) set <variable> = <value>
 ```
 
 Reset the session:
@@ -75,6 +114,14 @@ Reset the session:
 ```sh
 (gdb) monitor reset halt
 ```
+
+Show the current backtrace:
+
+```sh
+(gdb) backtrace
+```
+
+
 
 Ending a session
 
