@@ -4,7 +4,7 @@ excerpt: "Cheatsheet for UML Class Diagrams"
 toc: true
 categories:
   - guide
-  - uml
+  - software-guide
 ---
 
 ## The Class Element
