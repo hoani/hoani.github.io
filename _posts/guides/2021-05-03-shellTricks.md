@@ -70,3 +70,23 @@ To display disk usage of all subdirectories:
 du -h $(pwd)
 ```
 
+## Multiple execution
+
+Found on [askubuntu](https://askubuntu.com/a/539293)
+
+```sh
+A; B    # Run A and then B, regardless of success of A
+A && B  # Run B if and only if A succeeded
+A || B  # Run B if and only if A failed
+A &     # Run A in background.
+```
+
+## SSH
+
+To avoid entering a passphrase each time you use ssh, add the following to `~/.bashrc`:
+
+```sh
+alias sshlogin='eval $(ssh-agent); ssh-add ~/.ssh/<key_file>`
+```
+
+Use `sshlogin` to only need to enter the passphrase once.
