@@ -31,7 +31,11 @@ Window management
 ctl-a c    # create a window
 clt-a "    # navigate to a window 
 ctl-a :    # save current layout
-  `layout save default` 
+  `layout save default`
+ctl-a :    # resize horizonal region to 100 characters
+  `resize -h 100`
+ctl-a :    # resize vertical region to 20 lines
+  `resize -v 20`
 ```
 
 General management
@@ -40,4 +44,5 @@ General management
 ctl-a esc  # access scroll buffer
   esc      # exit scroll buffer
 ctl-a d    # detach
+ctl-a k    # kill session
 ```
