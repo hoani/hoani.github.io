@@ -110,3 +110,31 @@ Otherwise, the input argument is a (loose) regex:
 ```sh
 go test -bench Name
 ```
+
+## Coverage
+
+Can get test coverage resports using:
+
+```sh
+go test -cover
+```
+
+The output will look something like:
+```sh
+PASS
+coverage: 64.7% of statements
+ok      github.com/hoani/myGoProject       0.019s
+```
+
+To sum the coverage of all packages - 
+from [eleni.blog's excellent post](https://eleni.blog/2021/01/24/deep-diving-in-the-go-coverage-profile/) on Go coverage:
+
+```sh
+go test --count=1 -coverprofile=coverage.out ./... ; \
+cat coverage.out | \
+awk 'BEGIN {cov=0; stat=0;} \
+    $3!="" { cov+=($3==1?$2:0); stat+=$2; } \
+    END {printf("Total coverage: %.2f%% of statements\n", (cov/stat)*100);}'
+```
+
+* Note: will need to have tests in each package to ensure we count all lines.
