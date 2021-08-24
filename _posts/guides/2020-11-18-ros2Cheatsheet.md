@@ -4,8 +4,8 @@ excerpt: "A bunch of CLI commands for ROS2"
 toc: true
 categories:
   - guide
-  - cpp
-  - cpp-guide
+  - software
+  - software-guide
   - electronics
   - electronics-guide
 ---
