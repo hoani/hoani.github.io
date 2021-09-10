@@ -1,6 +1,6 @@
 ---
 title: "Raspberry Pi Python IO"
-excerpt: "Controlling Python IO with Raspberry Pi"
+excerpt: "Controlling Raspberry Pi IO with Python"
 toc: true
 categories:
   - guide
@@ -31,7 +31,7 @@ The [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/index.html) library pr
 
 ### Install
 
-On Raspbian:
+On Raspberry Pi OS:
 
 ```sh
 sudo apt update
