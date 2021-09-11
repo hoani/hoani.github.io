@@ -172,3 +172,89 @@ hpigpio_cpp(){
   sudo ./bin/${1//.cpp}
 }
 ```
+
+### Dealing with the daemon
+
+You may wish to run the `pigpio` daemon if:
+* You interface with `pigpio` in python
+* You don't have sudo permissions
+  * This is requied when using ROS
+* You want remote pin access
+
+In these cases the cpp code above won't work.
+
+Instead, we need to use the [`pigpio` daemon interface](https://abyz.me.uk/rpi/pigpio/pdif2.html)
+
+#### Running the daemon
+
+The best way is to use systemctl:
+
+```sh
+systemctl is-active pigpiod # check if active
+systemctl start pigpiod     # run in background
+systemctl enable pigpiod    # always run
+```
+
+#### Driving a servo from the daemon
+
+```cpp
+#include <iostream>
+#include <csignal>
+
+#include <pigpiod_if2.h>
+
+#define SERVO_FREQ (50) // Hz
+#define SERVO_PIN  (24)
+
+static int pi_id = -1;
+
+void at_signal(int i) {
+  std::cout << "Shutting down connection to pigpiod\n";
+  if (pi_id >= 0) {
+    pigpio_stop(pi_id);
+  }
+}
+
+int main(int argc, char *argv[]) {
+  std::signal(SIGINT, at_signal);
+
+  pi_id = pigpio_start("localhost", "8888");
+  if (pi_id < 0) {
+    std::cout << "Connecting to pigpiod failed\n";
+    return 1;
+  }
+
+  set_mode(pi_id, SERVO_PIN, PI_OUTPUT);
+  set_PWM_frequency(pi_id, SERVO_PIN, SERVO_FREQ);
+  set_PWM_range(pi_id, SERVO_PIN, 20000); // 1us/count
+
+  const double start = time_time();
+  while ((time_time() - start) < 60.0) {
+    time_sleep(0.5);
+    set_PWM_dutycycle(pi_id, SERVO_PIN, 1500);
+
+    time_sleep(0.5);
+    set_PWM_dutycycle(pi_id, SERVO_PIN, 1800);
+  }
+
+  return 0;
+}
+```
+
+* we must manage daemon connections now
+* servo drivers are not provided, we write our own
+
+#### Compiling
+
+The following is a bash script I keep in `.bashrc` for compiling/running single files.
+
+```sh
+# Compiles and runs a pigpiod_if2 c++ file.
+hpigpiod_cpp(){
+  mkdir -p bin
+  g++ -Wall -pthread -o bin/${1//.cpp} $1 -lpigpiod_if2 -lrt 
+  sudo ./bin/${1//.cpp}
+}
+```
+
+
