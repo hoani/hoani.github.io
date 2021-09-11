@@ -134,3 +134,82 @@ while True:
     else:
         print("{} seconds".format(din.inactive_time))
 ```
+
+## Reducing Servo Jitter
+
+When running the servo code above, we get the warning:
+
+```sh
+PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.
+```
+
+We would like our PWM to be hardware driven, rather than be at the mercy of the OS.
+
+There are two steps:
+* Install `pigpio`
+* Use GPIO Zero pin factories
+
+### Installing pigpio
+
+On Raspberry Pi OS:
+
+```sh
+sudo apt update
+sudo apt install pigpio
+sudo apt install python3-pigpio
+```
+
+#### pigpio daemon
+
+`pigpio` uses a daemon (that takes port `:8888`) to control IO pins. 
+
+The daemon must be running to control IO pins from your Raspberry Pi.
+
+Start the pigpio daemon:
+```sh
+sudo systemctl start pigpiod
+```
+
+Enable pigpio daemon at boot:
+```sh
+sudo systemctl enable pigpiod
+```
+
+### Using a Pin Factory
+
+GPIO Zero uses [Pin Factroies](https://gpiozero.readthedocs.io/en/stable/api_pins.html) to provide various pin drivers.
+
+Once `pigpio` is installed, we can use its pin factory.
+
+```py
+from gpiozero import Servo
+from gpiozero.pins.pigpio import PiGPIOFactory
+from time import sleep
+
+factory = PiGPIOFactory()
+servo = Servo(18, pin_factory=factory)
+
+while True:
+    servo.min()
+    sleep(2)
+    servo.mid()
+    sleep(2)
+    servo.max()
+    sleep(2)
+```
+
+This time, the pulses are very stable and the servo has no jitter.
+
+### Jitter Comparison
+
+I wanted to compare `pigpio` to the default pin driver; so I put a scope on the two implementations:
+
+<figure>
+    <img src="/assets/images/posts/guides/rpi/100_pwmFactory.png">
+</figure>
+
+* yellow is `pigpio` 
+  * on closer inspection only jitters about 0.2 microseconds; error (0.02%).
+* blue is the default driver
+  * it appears to put out two pulses per cycle
+  * the second pulse seems to be asyncronous and the average of the two provide the servo pulse
