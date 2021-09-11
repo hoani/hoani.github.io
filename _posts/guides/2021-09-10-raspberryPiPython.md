@@ -213,3 +213,39 @@ I wanted to compare `pigpio` to the default pin driver; so I put a scope on the 
 * blue is the default driver
   * it appears to put out two pulses per cycle
   * the second pulse seems to be asyncronous and the average of the two provide the servo pulse
+
+## pigpio
+
+GPIO Zero doesn't support some IO (such as serial).
+
+In these cases, we can interface with the pigpio daemon directly.
+
+See the [pigpio python API](https://abyz.me.uk/rpi/pigpio/python.html) for more details.
+
+### Interfacing with a serial port
+
+Assuming `pigpio` is already installed and the daemon is running:
+
+```py
+import pigpio
+import time
+
+pi = pigpio.pi()
+if not pi.connected:
+  exit()
+
+s = pi.serial_open("/dev/ttyS0", 115200)
+pi.serial_write(s, "j")
+
+time.sleep(1)
+len, data = pi.serial_read(s, 100)
+
+if len > 0:
+  print(data.decode("utf-8"))
+else:
+  print("no data")
+```
+
+* This interfaces with a [bittle](https://bittle.petoi.com/4-configuration#4-4-raspberry-pi-serial-port-as-an-interface) on a Raspberry Pi 3
+  * Other models of Raspberry Pi may use `/dev/ttyAMA0`
+* When debugging serial ports, consider [PySerial's miniterm](https://hoani.net/posts/guides/2020-12-10-pythonMiniterm/)
