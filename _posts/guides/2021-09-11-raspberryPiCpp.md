@@ -9,6 +9,7 @@ categories:
   - electronics
   - electronics-guide
   - cpp-guide
+  - rpi-guide
 ---
 
 ## Enable Hardware

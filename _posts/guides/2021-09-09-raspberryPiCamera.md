@@ -9,6 +9,7 @@ categories:
   - electronics
   - electronics-guide
   - python-guide
+  - rpi-guide
 ---
 
 ## Enable Camera

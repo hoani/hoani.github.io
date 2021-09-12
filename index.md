@@ -12,18 +12,8 @@ header:
 * [Math Cheatsheet](/math/)
 * [Matplotlib Cheatsheet](/matplotlib/)
 
-### Personal Projects
+### More Hoani
 
-#### Pendulum Controlled Robot
-
-* [Pendulum Control Robot](https://gitlab.com/hoani/pendulumbot) (Python-based for Beagle Bone Blue)
-* [Shalnark - Remote Control Robot App](https://github.com/hoani/shalnark) (Flutter-based)
-* [Pendulum Robot UI for Mobile](https://github.com/hoani/prum) (React Native-based)
-* [Robot GUI Using QT](https://github.com/hoani/PyGuiComms) (Python-based)
-
-#### L3aP Protocol (Legibile Encoding for Addressable Packets)
-
-* [Protocol Specification](https://leap-protocol.github.io/)
-* [Python Implementation](https://github.com/leap-protocol/leap-py)
-* [Javascript Implementation](https://github.com/leap-protocol/leap-js)
-
+* [LinkedIn](https://www.linkedin.com/in/hoanibryson) 
+* [GitHub](https://github.com/hoani)
+* [Leetware](https://leetware.co.nz) - Consultancy

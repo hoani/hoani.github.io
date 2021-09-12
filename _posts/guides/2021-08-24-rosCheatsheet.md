@@ -6,8 +6,7 @@ categories:
   - guide
   - software
   - software-guide
-  - electronics
-  - electronics-guide
+  - ros-guide
 ---
 
 ### Environment Setup

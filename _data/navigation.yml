@@ -31,3 +31,7 @@ sb-guides:
         url: /guides/octave
       - title: "Electronics"
         url: /guides/electronics
+      - title: "ROS"
+        url: /guides/ros
+      - title: "Raspberry Pi"
+        url: /guides/raspberrypi

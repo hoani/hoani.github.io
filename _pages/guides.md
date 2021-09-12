@@ -30,5 +30,9 @@ sidebar:
 [![full](/assets/images/pages/guides/octave-small.png)](/guides/octave)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![full](/assets/images/pages/guides/electronics-small.png)](/guides/electronics)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![full](/assets/images/pages/guides/rpi-small.png)](/guides/raspberrypi)
+&nbsp;&nbsp;&nbsp;&nbsp;
+[![full](/assets/images/pages/guides/ros-small.png)](/guides/ros)
 
 ## All of them
