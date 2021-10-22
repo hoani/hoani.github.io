@@ -54,7 +54,22 @@ raspivid -o vid.h264 -t 10000
 
 The `-t` flag sets how long to record in milliseconds
 * default is `5000` milliseconds
-* set to `0` to record until cancelled 
+* set to `0` to record until cancelled
+
+## Streaming
+
+Assuming we have a raspberry pi on `192.168.1.123`, and we would like to stream on port `5000`:
+
+```sh
+raspivid -t 0 -w 320 -h 240 --inline --listen -o tcp://0.0.0.0:5000
+```
+
+On client side:
+```
+vlc tcp/h264://192.168.1.123:5000
+```
+
+I have found that gstreamer has significantly lower latency than using `raspivid` directly. See [GStreamer RPi Streaming](https://hoani.net/posts/guides/2021-10-22-gstreamerRPiStreaming/).
 
 ## Python pycamera Library
 
@@ -85,7 +100,7 @@ camera.wait_recording(5)
 camera.stop_recording()
 ```
 
-See the [Basic Recipies Documentation](https://picamera.readthedocs.io/en/release-1.13/recipes1.html) for streaming etc.
+See the [Basic Recipies Documentation](https://picamera.readthedocs.io/en/release-1.13/recipes1.html) for more.
 
 
 
