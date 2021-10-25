@@ -92,5 +92,6 @@ alias sshlogin='eval $(ssh-agent); ssh-add ~/.ssh/<key_file>`
 Use `sshlogin` to only need to enter the passphrase once.
 
 
-## TODO:
-Checkout https://devhints.io/bash
+<!---
+TODO: Checkout https://devhints.io/bash
+-->
