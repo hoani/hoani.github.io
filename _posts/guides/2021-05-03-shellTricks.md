@@ -7,6 +7,8 @@ categories:
   - software-guide
 ---
 
+See [Bash Scripting Cheatsheet](https://devhints.io/bash) for a whole collection of bash tricks.
+
 ## Logging
 
 Pipe data to a log file and stdout:
@@ -92,6 +94,3 @@ alias sshlogin='eval $(ssh-agent); ssh-add ~/.ssh/<key_file>`
 Use `sshlogin` to only need to enter the passphrase once.
 
 
-<!---
-TODO: Checkout https://devhints.io/bash
--->
