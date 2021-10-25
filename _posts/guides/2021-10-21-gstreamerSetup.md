@@ -19,7 +19,8 @@ Is a library with a set of tools for multimedia.
 Following a [LCA2018 Gstreamer tutorial](https://www.youtube.com/watch?v=ZphadMGufY8):
 
 ```
-sudo apt-get install gstreamer1.0-dev gstreamer1.0-tools gstreamer1.0-plugins-\* gstreamer1.0-libav
+sudo apt-get install gstreamer1.0-dev gstreamer1.0-tools \
+gstreamer1.0-plugins-\* gstreamer1.0-libav
 ```
 
 ## Hello world
@@ -43,12 +44,15 @@ I have found that gstreamer drops a lot of frames on VMs. For testing on VMs, us
 With a webcam or USB camera:
 
 ```
-gst-launch-1.0 v4l2src device=/dev/video0 ! videoconvert ! autovideosink
+gst-launch-1.0 v4l2src device=/dev/video0 \
+! videoconvert ! autovideosink
 ```
 
 When using a raspberry pi camera, we will want to specify framerate and resolution:
 
 ```
-gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,width=640,height=480,framerate=30/1 ! videoconvert ! autovideosink
+gst-launch-1.0 v4l2src device=/dev/video0 \
+! video/x-raw,width=640,height=480,framerate=30/1 \
+! videoconvert ! autovideosink
 ```
 
