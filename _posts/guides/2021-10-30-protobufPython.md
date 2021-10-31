@@ -55,9 +55,3 @@ print(decoded.servoYaw.angle)   # 10.0 -15.5
 
 Note:
 * `decoded.ParseFromString` returns `22` which can be used to parse streams.
-
-
-
-
- 
-

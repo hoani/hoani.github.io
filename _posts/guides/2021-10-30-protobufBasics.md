@@ -134,5 +134,9 @@ message GimbalState {
   google.protobuf.Timestamp lastUpdate = 3;
 }
 ```
+
+See [google.protobuf](https://developers.google.com/protocol-buffers/docs/reference/google.protobuf) has a bunch of useful types - most of which can be found in the [github source](https://github.com/protocolbuffers/protobuf/tree/master/src/google/protobuf). 
+
+See `wrappers.proto` for primitive types.
  
 
