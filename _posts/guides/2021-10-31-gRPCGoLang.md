@@ -10,6 +10,8 @@ categories:
   - golang-guide
 ---
 
+See [github.com/hoani/fibonacci](https://github.com/hoani/fibonacci) for code in this example.
+
 ## Related guides
 
 * [Protobuf basics](https://hoani.net/posts/guides/2021-10-30-protobufBasics/)
