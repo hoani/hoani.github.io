@@ -128,3 +128,20 @@ Our history is now:
 commit d303b5387dd444f35473be0cc25b286da7a76255 (HEAD -> feature/thermistor)
     Add thermistor driver with steinhart-hart estimator
 ```
+
+### Submodules
+
+Add an existing repository:
+
+```
+git submodule add <repo-url.git>
+```
+
+When cloning a repository with submodules, the submodules will be empty.
+
+To populate the submodules, run:
+
+```
+git submodule update --init
+```
+
