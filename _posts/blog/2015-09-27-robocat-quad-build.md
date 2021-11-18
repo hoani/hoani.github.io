@@ -1,6 +1,6 @@
 ---
 title: "Robocat Quadcopter Build"
-excerpt: "A brief summary of my Masters thesis work in rocketry control."
+excerpt: "An early quacdcopter build"
 header:
   image: /assets/images/posts/robocat/banner.jpg
   teaser: /assets/images/posts/robocat/banner.jpg
