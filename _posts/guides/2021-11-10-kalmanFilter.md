@@ -63,7 +63,7 @@ K_{k} = \bar{\Sigma_{k}}C^T(C\bar{\Sigma_{k}}C^T + Q)^{-1}
 \end{equation}
 $$
 
-Estimate the distribution by combining the observations with the predited state:
+Estimate the distribution by combining the observations with the predicted state:
 
 $$
 \begin{align}
