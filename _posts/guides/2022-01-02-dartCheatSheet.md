@@ -310,3 +310,35 @@ void handleCommand(Command cmd) {
   } 
 }
 ```
+
+## Streams
+
+```dart
+import 'dart:async';
+
+void main() {
+  final controller = StreamController();
+
+  controller.sink.add("Hello");
+  controller.sink.add(null);
+  controller.sink.add(1234);
+  controller.sink.addError(StateError("something is wrong"));
+  controller.close();
+
+  controller.stream.listen(
+    (v)            => print(v),
+    onError: (err) => print("Error: \t" + err.toString()),
+    onDone: ()     => print("stream closed"),
+  );
+}
+```
+
+Output:
+
+```
+Hello
+null
+1234
+Error: 	Bad state: something went wrong
+stream closed
+```
