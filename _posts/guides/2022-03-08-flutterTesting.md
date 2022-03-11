@@ -25,7 +25,7 @@ void main() {
 }
 ```
 
-## Test groups
+### Test groups
 
 Tests can be grouped:
 
@@ -59,6 +59,24 @@ void main() {
     tearDown((){
       // test clean up.
     });
+  });
+}
+```
+
+### Asynchronous Testing
+
+When testing an `async` function which affects a stream, we can use `emitsInOrder`. For example:
+
+```dart
+   Stream<int> genFibbo() {
+    return Stream<int>.fromIterable([0, 1, 1, 2, 3, 5]);
+  }
+
+  test('fibbonacci', () {
+    expect(
+      genFibbo(),
+      emitsInOrder([0, 1, 1, 2, 3, 5])
+    );
   });
 }
 ```
@@ -177,5 +195,4 @@ Note - in the above example, we used `thenAnswer` in our stub. The following are
 * `thenReturn` for functions which return immediately.
 * `thenAnswer` for `Future` or `Stream`.
 * `thenThrow` if you want to throw.
-
 
