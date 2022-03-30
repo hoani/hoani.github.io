@@ -8,7 +8,9 @@ categories:
   - golang-guide
 ---
 
-The generics feature in this guide required go 1.18 or higher.
+This post was put together after reading through [Type Parameters Proposal](https://go.googlesource.com/proposal/+/refs/heads/master/design/43651-type-parameters.md) and some experimentation.
+
+The generics feature in this guide requires go 1.18 or higher.
 
 ## Generic Functions
 
@@ -46,11 +48,11 @@ func Has[T comparable](items []T, target T) bool {
 }
 ```
 
-This can be called with any type `T` that enforces the constraint `comparable`. The `comparable constraint requires that:
+This can be called with any type `T` that enforces the constraint `comparable`. The `comparable` constraint requires that:
 * `T == T` is implemented
 * `T != T` is implemented
 
-For example:
+We can use `Has` for `T = string` because `string` is a `comparable`:
 
 ```golang
 list := []string{"a", "b", "c", "d", "e"}
@@ -62,7 +64,9 @@ fmt.Printf("%v: %v\n", "h", Has(list, "h")) // h: false
 
 In the above example, we used inferrence to determine what type `T` should use. This was easy for the compiler to deduce because our input arguments provide the type.
 
-Determining `T` implicitly isn't always possible. For example, I might want a more convenient method to get a `nil` pointer to a specific type. Afterall, writing `var value *MyType` gets annoying. So I write:
+Determining `T` implicitly isn't always possible.
+
+For example, I might want a convenient way to get a `nil` pointer to a specific type, so I write:
 
 ```golang
 func NilPtr[T any]() *T {
@@ -77,6 +81,19 @@ value := NilPtr[int]()      // OK
 value := NilPtr[struct{}]() // OK
 value := NilPtr()           // Compile Error
 ```
+The last example gives us the compile error: `"cannot infer T"`
+
+### Multiple type parameters
+
+A type parameter list can have multiple type parameters:
+```golang
+func doSomething[A, B any, C ~int](a1 A, a2 A, b B, c C)
+```
+
+In the above example:
+* `a1` and `a2` can be `any` type, but must be the same type
+* `b` can be `any` type and can be a different from `a1` and `a2`
+* `c` must have an underlying type of `int` (more on this later)
 
 ## Generic Types
 
@@ -99,12 +116,13 @@ f32List := MyList{0.0, 1.5}          // Compile Error
 ```
 
 ### Example: Generic Set
-For the longest time, I have been frustrated by having to use `map[MyType]struct{}` for sets and having to rewrite my `Set` code in various packages. 
 
-Now I can define:
+A common source of repeated code is writing sets in go as a `map[MyType]struct{}`. 
+
+With generic types I can define:
 
 ```golang
-type Set[T any] map[T]struct{}
+type Set[T any] struct{ m map[T]struct{} }
 ```
 
 And the set can have methods:
@@ -136,14 +154,14 @@ fmt.Printf("%v: %v \n", 5.6, f64Set.Has(1.2)) // 5.6: false
 
 One gotcha in go 1.18 (and maybe later versions? Who knows...) is that a member function cannot have its own generic types.
 
-For example, we couldn't define:
+For example, we cannot define:
 ```golang
 func (s *Set[T]) Length[N: ~int|~uint]() N {
 	return N(len(s.m))
 }
 ```
 
-This will result in the compile error `method must have no type parameters`.
+This will result in the compile error: `"method must have no type parameters"`.
 
 ## Constraints
 
@@ -159,7 +177,7 @@ If we use the `any` constraint to write `Has` we get:
 ```golang
 func Has[T any](items []T, v T, equal func(a,b T) bool) bool
 ```
-* `any` is very vague, so we provide a `cmp` function to help `sort` determine order.
+* `any` is very vague, so we provide an `equal` function to help `Has` check equality.
 
 ### Constraint: `comparable`
 
@@ -213,15 +231,25 @@ func Has[T int](items []T, v T) bool
 // Can only use int or uint
 func Has[T int | uint](items []T, v T) bool
 
-// Can only use string or items with string as the
+// Can only use int or types with string as the
 // underlying type.
 func Has[T int | ~string](items []T, v T) bool
 ```
 
 On underlying types:
+* The tilde `'~'` symbol denotes underlying type
+  * In this case we have `~string` which means any type with the underlying type `string`
 * `type myString string` has the underlying type `string`
 * `type myString struct{string}` has the underlying type `struct{string}` not `string`
-	* attempting to use `struct{string}` as `~string` results in compile error: `myString does not implement ~string`
+	* attempting to use `struct{string}` as `~string` results in compile error: `"myString does not implement ~string"`
+
+On unions:
+* The bar `'|'` symbol denotes a union
+* `[T int | uint]` means any type which meets the contraint `int` or `uint` may be used 
+  * Only operations which both `int` and `uint` share can be used on `T`
+* Unions can be applied to any constraint
+  * `[T io.Writer | string]` accepts anything which provides `io.Writer` or a `string`
+  * `T` cannot use the `io.Writer` `Write(p []byte) (n int, err error)` function, because `T` is constrained by `string` which does not provide a `Write` function 
 
 ### Combining constraints
 
@@ -257,3 +285,4 @@ We can call `CurrencyString` like so:
 ```golang
 fmt.Println(CurrencyString(NZD(500))) // 5.00 NZD
 ```
+
