@@ -1,6 +1,6 @@
 ---
-title: "Python GPRC"
-excerpt: "Basic GRPC using Python"
+title: "Python gRPC"
+excerpt: "Basic gRPC using Python"
 toc: true
 categories:
   - guide

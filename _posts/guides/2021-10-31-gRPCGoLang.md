@@ -1,6 +1,6 @@
 ---
-title: "Go GPRC"
-excerpt: "Basic GRPC using Go"
+title: "Go gRPC"
+excerpt: "Basic gRPC using Go"
 toc: true
 categories:
   - guide
