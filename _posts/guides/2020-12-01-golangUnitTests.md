@@ -1,6 +1,6 @@
 ---
 title: "Go Unit Testing"
-excerpt: "Basic cheatsheet for golang"
+excerpt: "Testing basics in go"
 toc: true
 categories:
   - guide
