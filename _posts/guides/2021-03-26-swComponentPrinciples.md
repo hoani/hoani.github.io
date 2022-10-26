@@ -37,7 +37,7 @@ The following princinciples help determine how to handle dependencies between co
 
 Dependency Inversion is important to acheive these principles.
 
-### ADP - Acrylic Dependencies Principle
+### ADP - Acyclic Dependencies Principle
 
 Cycles are not allowed in the dependency graph.
 
