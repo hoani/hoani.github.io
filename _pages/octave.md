@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Matlab and Octave
-permalink: guides/octave
+permalink: guides/engineering/octave
 collection: posts
 taxonomy: octave-guide
 entries_layout: grid

@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Maths and Stuff
-permalink: guides/mathematics
+permalink: guides/engineering/mathematics
 collection: posts
 taxonomy: mathematics
 entries_layout: grid

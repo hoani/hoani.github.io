@@ -6,32 +6,30 @@ main:
     url: /guides
   - title: "Games"
     url: /games
-  # - title: "Sitemap"
-  #   url: /sitemap/
 sb-guides:
   - title: Software
-    url: /guides
+    url: /guides/software
     children:
-      - title: "General"
-        url: /guides/software
       - title: "C++"
-        url: /guides/cpp
+        url: /guides/software/cpp
       - title: "Python"
-        url: /guides/python
+        url: /guides/software/python
       - title: "Rust"
-        url: /guides/rust
+        url: /guides/software/rust
       - title: "Golang"
-        url: /guides/golang
+        url: /guides/software/golang
+      - title: "Dart"
+        url: /guides/software/dart
   - title: Engineering
     url: /guides
     children:
       - title: "Mathematics"
-        url: /guides/mathematics
+        url: /guides/engineering/mathematics
       - title: "Matlab/Octave"
-        url: /guides/octave
+        url: /guides/engineering/octave
       - title: "Electronics"
-        url: /guides/electronics
+        url: /guides/engineering/electronics
       - title: "ROS"
-        url: /guides/ros
+        url: /guides/engineering/ros
       - title: "Raspberry Pi"
-        url: /guides/raspberrypi
+        url: /guides/engineering/raspberrypi

@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Golang Cheatsheets
-permalink: guides/golang
+permalink: guides/software/golang
 collection: posts
 taxonomy: golang-guide
 entries_layout: grid

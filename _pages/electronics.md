@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Electronics and Embedded
-permalink: guides/electronics
+permalink: guides/engineering/electronics
 collection: posts
 taxonomy: electronics
 entries_layout: grid

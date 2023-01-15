@@ -9,8 +9,8 @@ header:
 ### Useful things
 
 * [Guides](/guides)
-* [Math Cheatsheet](/math/)
-* [Matplotlib Cheatsheet](/matplotlib/)
+* [Math Cheatsheet](/guides/engineering/mathematics/cheatsheet)
+* [Matplotlib Cheatsheet](/guides/software/python/matplotlib)
 
 ### More Hoani
 

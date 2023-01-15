@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Raspberry Pi Guides
-permalink: guides/raspberrypi
+permalink: guides/engineering/raspberrypi
 collection: posts
 taxonomy: rpi-guide
 entries_layout: grid

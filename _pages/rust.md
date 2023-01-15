@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Rust Cheatsheets
-permalink: guides/rust
+permalink: guides/software/rust
 collection: posts
 taxonomy: rust-guide
 entries_layout: grid
