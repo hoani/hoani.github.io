@@ -11,7 +11,7 @@ categories:
 
 {% include video id="lB8UJJp6UrU" provider="youtube" %}
 
-# Fuzz test strucutre
+# Fuzz test structure
 
 Fuzz tests look like:
 
