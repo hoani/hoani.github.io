@@ -6,7 +6,7 @@ permalink: "/guides/software/golang/fuzzing"
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 {% include video id="lB8UJJp6UrU" provider="youtube" %}

@@ -6,8 +6,7 @@ toc: true
 categories:
   - guide
   - software
-  - software-guide
-  - ros-guide
+  - ros
 ---
 
 ### Listing stuff

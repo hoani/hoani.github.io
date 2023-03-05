@@ -6,9 +6,8 @@ classes: wide
 categories:
   - guide
   - cpp
-  - cpp-guide
+  - software
   - cmake
-  - cmake-guide
 ---
 
 * [Official CMake Documentation](https://cmake.org/cmake/help/latest/index.html)

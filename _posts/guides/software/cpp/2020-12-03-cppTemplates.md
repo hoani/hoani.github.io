@@ -6,7 +6,7 @@ permalink: /guides/software/cpp/templates
 categories:
   - guide
   - cpp
-  - cpp-guide
+  - software
 ---
 ## Function Template
 

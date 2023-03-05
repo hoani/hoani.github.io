@@ -6,7 +6,6 @@ toc: true
 categories:
   - guide
   - python
-  - python-guide
 ---
 
 See the [official docs](https://docs.python.org/3/library/argparse.html#name-or-flags) for the full API.

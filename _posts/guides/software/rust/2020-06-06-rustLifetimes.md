@@ -6,7 +6,7 @@ permalink: /guides/software/rust/lifetimes
 categories:
   - guide
   - rust
-  - rust-guide
+  - software
 ---
 
 Lifetimes are defined using the `'` symbol. They ensure that references remain valid for the scope they are used in.

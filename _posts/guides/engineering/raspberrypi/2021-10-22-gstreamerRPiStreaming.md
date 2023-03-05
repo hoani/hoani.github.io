@@ -6,7 +6,7 @@ toc: true
 categories:
   - guide
   - software
-  - software-guide
+  - rpi
 ---
 
 Prerequisites:

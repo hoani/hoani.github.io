@@ -6,7 +6,6 @@ permalink: /guides/software/principles
 categories:
   - guide
   - software
-  - software-guide
 ---
 
 The following notes are from [Uncle Bob's Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture) and [Andy and Dave's The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)

@@ -5,7 +5,6 @@ permalink: /guides/software/python/ode
 categories:
   - guide
   - python
-  - python-guide
 ---
 
 ## First Order RC Model

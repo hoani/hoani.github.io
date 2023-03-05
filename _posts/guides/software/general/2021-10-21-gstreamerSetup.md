@@ -6,7 +6,7 @@ permalink: /guides/software/gstreamer
 categories:
   - guide
   - software
-  - software-guide
+  - gstreamer
 ---
 
 This guide was tested on Linux Mint and a Raspberry Pi.

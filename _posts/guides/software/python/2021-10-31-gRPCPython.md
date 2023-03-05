@@ -6,7 +6,6 @@ permalink: /guides/software/python/grpc
 categories:
   - guide
   - python
-  - python-guide
 ---
 
 See [github.com/hoani/fibonacci](https://github.com/hoani/fibonacci) for code in this example.

@@ -6,7 +6,7 @@ permalink: /guides/software/docker-cli
 categories:
   - guide
   - software
-  - software-guide
+  - docker
 ---
 
 ### Build an image

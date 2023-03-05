@@ -6,7 +6,7 @@ permalink: "/guides/software/golang/protobuf"
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 ## Setup

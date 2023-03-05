@@ -6,7 +6,6 @@ permalink: /guides/software/debian-pkg
 categories:
   - guide
   - software
-  - software-guide
 ---
 
 This guide is a brief tutorial on creating and using a debian package.

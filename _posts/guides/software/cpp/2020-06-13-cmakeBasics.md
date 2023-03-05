@@ -6,9 +6,8 @@ classes: wide
 categories:
   - guide
   - cpp
-  - cpp-guide
+  - software
   - cmake
-  - cmake-guide
 ---
 
 Given a directory structure like:

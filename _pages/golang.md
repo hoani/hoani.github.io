@@ -1,9 +1,9 @@
 ---
 layout: category
-title: Golang Cheatsheets
+title: Golang Guides
 permalink: guides/software/golang
 collection: posts
-taxonomy: golang-guide
+taxonomy: golang
 entries_layout: grid
 classes: wide
 author_profile: false

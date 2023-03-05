@@ -33,3 +33,5 @@ sb-guides:
         url: /guides/engineering/ros
       - title: "Raspberry Pi"
         url: /guides/engineering/raspberrypi
+      - title: "OpenAI"
+        url: /guides/engineering/openai

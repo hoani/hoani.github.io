@@ -1,9 +1,9 @@
 ---
 layout: category
-title: Python Cheatsheets
+title: Python Guides
 permalink: guides/software/python
 collection: posts
-taxonomy: python-guide
+taxonomy: python
 entries_layout: grid
 classes: wide
 author_profile: false

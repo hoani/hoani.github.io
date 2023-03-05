@@ -6,7 +6,6 @@ permalink: /guides/software/gdb
 categories:
   - guide
   - software
-  - software-guide
 ---
 
 ### Text User interface
@@ -21,7 +20,7 @@ For a more interactive gdb session, can use a text user interface:
 
 Depending on which command was run, it will display the source, assembler or both.
 
-![Altium Standards](/assets/images/posts/guides/gdb/gdb_tui.png)
+![GDB TUI](/assets/images/posts/guides/gdb/gdb_tui.png)
 
 To remove the text user interface (tui):
 

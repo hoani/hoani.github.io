@@ -2,10 +2,11 @@
 title: "OpenAI - Completion"
 excerpt: "Text completion using OpenAI's API"
 toc: true
-permalink: "/guides/software/openai/completion"
+permalink: "/guides/engineering/openai/completion"
 categories:
   - guide
   - software
+  - engineering
   - openai
   - golang
   - python

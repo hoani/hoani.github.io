@@ -6,11 +6,9 @@ toc: true
 categories:
   - guide
   - software
-  - software-guide
   - electronics
-  - electronics-guide
-  - cpp-guide
-  - rpi-guide
+  - cpp
+  - rpi
 ---
 
 ## Enable Hardware

@@ -6,7 +6,7 @@ permalink: /guides/software/golang/profiling
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 `pprof` allows us to profile cpu and memory of go programs.

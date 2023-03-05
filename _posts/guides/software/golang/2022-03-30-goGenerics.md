@@ -6,7 +6,7 @@ toc: true
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 This post was put together after reading through [Type Parameters Proposal](https://go.googlesource.com/proposal/+/refs/heads/master/design/43651-type-parameters.md) and some experimentation.

@@ -6,7 +6,6 @@ permalink: /guides/software/python/protobuf
 categories:
   - guide
   - python
-  - python-guide
 ---
 
 ## Setup

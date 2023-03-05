@@ -6,7 +6,7 @@ toc: true
 categories:
   - guide
   - cpp
-  - cpp-guide
+  - software
 ---
 
 ### Default

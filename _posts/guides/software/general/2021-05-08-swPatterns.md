@@ -6,7 +6,6 @@ permalink: /guides/software/patterns
 categories:
   - guide
   - software
-  - software-guide
 ---
 
 The following are my notes are from [Design Patterns](https://www.goodreads.com/book/show/85009.Design_Patterns).

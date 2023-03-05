@@ -1,9 +1,9 @@
 ---
 layout: category
-title: Dart Guides
-permalink: guides/software/dart
+title: OpenAI Guides
+permalink: guides/engineering/openai
 collection: posts
-taxonomy: dart
+taxonomy: openai
 entries_layout: grid
 classes: wide
 author_profile: false

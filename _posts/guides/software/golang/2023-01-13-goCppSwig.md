@@ -6,7 +6,7 @@ permalink: "/guides/software/golang/swig"
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 SWIG allows us to integrate C++ code and libraries into Go.

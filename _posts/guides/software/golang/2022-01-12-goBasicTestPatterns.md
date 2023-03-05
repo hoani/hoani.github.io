@@ -6,7 +6,7 @@ toc: true
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 This guide provides some useful patterns for writing tests. For the basic go testing cheatsheet see [Go Unit Testing](../2020-12-01-golangUnitTests)

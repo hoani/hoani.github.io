@@ -6,7 +6,6 @@ permalink: /guides/software/shell
 categories:
   - guide
   - software
-  - software-guide
 ---
 
 See [Bash Scripting Cheatsheet](https://devhints.io/bash) for a whole collection of bash tricks.

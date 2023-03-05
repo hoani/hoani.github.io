@@ -6,7 +6,6 @@ permalink: /guides/software/screen
 categories:
   - guide
   - software
-  - software-guide
 ---
 
 ## Command Line

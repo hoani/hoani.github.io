@@ -6,7 +6,6 @@ permalink: /guides/software/python/miniterm
 categories:
   - guide
   - python
-  - python-guide
   - electronics
 ---
 
