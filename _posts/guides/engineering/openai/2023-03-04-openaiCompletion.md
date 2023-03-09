@@ -15,7 +15,7 @@ categories:
 Completions allow us to expand on a prompt.
 
 ```
-[prompt] -> OpenAI API -> [completion]
+[prompt] -> OpenAI Completion API -> [completion]
 ```
 
 # Http API
@@ -103,7 +103,7 @@ curl https://api.openai.com/v1/completions \
 
 ### temperature
 
-`temperature` specifies the "randomness" of the result. `temperature` has a range of `[0, 1]`. A temperature of 0 provides results which are less variable; while a temperature of 1 is more variable but may not match the prompt as precisely.
+`temperature` specifies the "randomness" of the result. `temperature` has a range of `[0, 2]`. A temperature of 0 provides results which are less variable; while a temperature of 2 is more variable but may not match the prompt as precisely. It is 1 by default.
 
 ### n
 
