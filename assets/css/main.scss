@@ -23,6 +23,19 @@ body {
     width: 25%
 }
 
+.download-svg {
+    filter: invert(100%) brightness(118%) contrast(119%);
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 0;
+}
+
+
+.download-btn {
+    width: 100%;
+}
+
 /* contrast syntax highlighting (base16) */
 $base00: #080808;
 $base01: #242422;

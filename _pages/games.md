@@ -9,7 +9,8 @@ classes: wide
 
 ## 2024
 
+### [Clover](/clover)
+A game where you fight off endless hoards of bandits.
 
-## 2006-2012
 
-A collection of games that I either made or collaborated on when I was young.
+## All games
