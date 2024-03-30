@@ -1,6 +1,7 @@
 ---
 title: "Essence Child"
 excerpt: "Can you solve the puzzles to save the planet?"
+permalink: essence-child
 header:
   image: /assets/images/games/banner/essence-child.png
   teaser: /assets/images/games/banner/essence-child.png

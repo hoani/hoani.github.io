@@ -1,6 +1,7 @@
 ---
 title: "Seraphim Flame"
 excerpt: "Fight your way into hell to defeat Astarot and free the Seraphs."
+permalink: seraphim-flame
 header:
   image: /assets/images/games/banner/seraphim-flame.png
   teaser: /assets/images/games/banner/seraphim-flame.png

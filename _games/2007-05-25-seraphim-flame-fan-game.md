@@ -1,6 +1,7 @@
 ---
 title: "Seraphim Flame Fan Game"
 excerpt: "Guzu made a fan game of Seraphim Flame!!!"
+permalink: seraphim-flame-guzu
 header:
   image: /assets/images/games/banner/seraphim-flame-fan.png
   teaser: /assets/images/games/banner/seraphim-flame-fan.png

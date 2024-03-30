@@ -1,6 +1,7 @@
 ---
 title: "Infection Tower Defense"
 excerpt: "Show your host the infection is in control!"
+permalink: infection
 header:
   image: /assets/images/games/banner/infection.png
   teaser: /assets/images/games/banner/infection.png

@@ -1,6 +1,7 @@
 ---
 title: "The Hanrahan Game"
 excerpt: "Fight through thousands of ninja and pirates to save your kidnapped lover."
+permalink: the-hanrahan-game
 header:
   image: /assets/images/games/banner/hanrahan.png
   teaser: /assets/images/games/banner/hanrahan.png
