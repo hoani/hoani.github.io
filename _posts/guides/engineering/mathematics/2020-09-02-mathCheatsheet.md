@@ -32,4 +32,10 @@ Useful derivatives
 | $$ \cos \frac{\theta}{2} $$ | $$ = $$ | $$ \pm \sqrt{\frac{1 + \cos\theta}{2}} $$ |
 | $$ \tan \frac{\theta}{2} $$ | $$ = $$ | $$ \frac{1 - \cos\theta}{\sin\theta} $$ |
 
+## Quadratic formula
 
+$$ 
+\begin{align}
+x &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\
+\end{align} 
+$$
