@@ -23,7 +23,7 @@
     <!-- Set the background colour of the document -->
     <style>
         body {
-            background: #0;
+            background: #000;
             color: #cccccc;
             margin: 0px;
             padding: 0px;
@@ -38,6 +38,9 @@
             margin: 0px;
             padding: 0px;
             border: 0px;
+            display: block;
+            width: min(100%, 200vh);
+            height: min(100%, 50vw);
         }
 
         :-webkit-full-screen #canvas {
@@ -55,6 +58,9 @@
             margin: 0px;
             padding: 0px;
             border: 0px;
+            display: block;
+            width: auto;
+            height: 100%;
         }
 
         div.gm4html5_login {
@@ -85,56 +91,6 @@
     <!-- Custom PostStyle code is injected here -->
 
 
-    canvas {
-    image-rendering: optimizeSpeed;
-    -webkit-interpolation-mode: nearest-neighbor;
-    -ms-touch-action: none;
-    touch-action: none;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    display: block;
-    width: min(100%, 200vh);
-    height: min(100%, 50vw);
-    }
-
-    <!-- Custom PostHead code is injected here -->
-
-
-    <!-- Custom PreBody code is injected here -->
-
-
-    /* Custom Runner Styles */
-    div.gm4html5_div_class {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    display: block;
-    width: auto;
-    height: 100%;
-    }
-
-    <!-- Create the canvas element the game draws to -->
-    <canvas id="canvas" width="512" height="256"
-        style="position: absolute; top: 50%; left: 50%; bottom: -50%; right: -50%; transform: translate(-50%, -50%);">
-        <p>Your browser doesn't support HTML5 canvas.</p>
-    </canvas>
-    </div>
-
-    <!-- Run the game code -->
-    <script type="text/javascript" src="clover/archer-cart.js?cachebust=2032408752"></script>
-
-    <!-- Builtin injector for injecting runner path -->
-
-
-    <script>window.onload = GameMaker_Init;</script>
-
-    <!-- Builtin injector for injecting google analytics code -->
-
-
-    <!-- Custom PostStyle code is injected here -->
-
-
     <!-- Builtin injector for injecting flurry analytics code -->
 
 </head>
@@ -159,7 +115,7 @@
     </div>
 
     <!-- Run the game code -->
-    <script type="text/javascript" src="clover/archer-cart.js?cachebust=605911968"></script>
+    <script type="text/javascript" src="clover/archer-cart.js?cachebust=2032408752"></script>
 
     <!-- Builtin injector for injecting runner path -->
 
@@ -169,8 +125,6 @@
 
 
 </body>
-
-<!-- Custom PostBody code is injected here -->
 
 <!-- Custom PostBody code is injected here -->
 
