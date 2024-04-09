@@ -9,8 +9,8 @@ classes: wide
 
 ## 2024
 
-### [Clover](/clover)
-A game where you fight off endless hoards of bandits.
+<figure class="half" style="margin-bottom:0"><a href="/clover"><img src="/assets/images/games/clover/thumbnail.png"></a></figure> 
+<p style="margin-top:0">An action packed arcade shooter. Fight off endless hoards of bandits.</p>
 
 
 ## All games
