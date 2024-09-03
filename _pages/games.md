@@ -9,6 +9,9 @@ classes: wide
 
 ## 2024
 
+<figure class="half" style="margin-bottom:0"><a href="/throw-a-watermelon"><img src="/assets/images/games/watermelon/thumbnail.png"></a></figure> 
+<p style="margin-top:0">Build different constructs to throw a watermelon.</p>
+
 <figure class="half" style="margin-bottom:0"><a href="/dream"><img src="/assets/images/games/dream/thumbnail.png"></a></figure> 
 <p style="margin-top:0">Fight off your nightmares and survive another night.</p>
 
