@@ -26,7 +26,7 @@ This game was made in four days as an entry to the GMC Jam 53.
 
 The theme of the Jam was `In a simulation`.
 
-I worked hard to design a game with boss fights which all feel similar to common nightmares we all experience.
+The game is built around gamemaker's physics engine - it has a few interesting quirks; but for the most part allows for a lot of fun freedome for building things.
 
 <a href="https://gx.games/games/4tl1i7/throw-a-watermelon/" class="btn btn--primary" style="margin-left:20%;width:60%">Play in Browser</a>
 
