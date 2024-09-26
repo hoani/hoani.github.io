@@ -34,9 +34,9 @@ The game is built around gamemaker's physics engine - it has a few interesting q
 
 ## Awards
 
-<figure style="margin-bottom:0"><img src="/assets/images/games/dream/medals/rank120.png"></figure> 
-<figure style="margin-bottom:0"><img src="/assets/images/games/dream/medals/ux120.png"></figure> 
-<figure style="margin-bottom:0"><img src="/assets/images/games/dream/medals/concept120.png"></figure> 
+<figure style="margin-bottom:0"><img src="/assets/images/games/watermelon/medals/rank120.png"></figure> 
+<figure style="margin-bottom:0"><img src="/assets/images/games/watermelon/medals/ux120.png"></figure> 
+<figure style="margin-bottom:0"><img src="/assets/images/games/watermelon/medals/concept120.png"></figure> 
 
 ## Credits
 
