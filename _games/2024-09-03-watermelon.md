@@ -32,6 +32,8 @@ The game is built around gamemaker's physics engine - it has a few interesting q
 
 <a href="https://gx.games/games/4tl1i7/throw-a-watermelon/" class="btn btn--primary" style="margin-left:20%;width:60%">Play in Browser</a>
 
+{% include video id="m5weLxbGEwc" provider="youtube" %}
+
 {% include gallery %}
 
 ## Awards
