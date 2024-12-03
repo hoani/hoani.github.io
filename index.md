@@ -8,6 +8,7 @@ header:
 
 #### Recent Games
 
+| <figure style="margin:0"><a href="/fight-fight-revolution"><img src="/assets/images/games/ffr/thumbnail.png"></a></figure>  | Save the humanity from Skelletrex and his bone brigade. |
 | <figure style="margin:0"><a href="/throw-a-watermelon"><img src="/assets/images/games/watermelon/thumbnail.png"></a></figure>  | Build different constructs to throw a watermelon. |
 | <figure style="margin:0"><a href="/dream"><img src="/assets/images/games/dream/thumbnail.png"></a></figure> | Fight off your nightmares and survive another night. |
 | <figure style="margin:0"><a href="/clover"><img src="/assets/images/games/clover/thumbnail.png"></a></figure> | An action packed arcade shooter. <br/>Fight off endless hoards of bandits. |
