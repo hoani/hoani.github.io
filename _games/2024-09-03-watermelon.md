@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/games/banner/watermelon.png
 sidebar:
   - title: "Downloads"
-    text: '<a href="/assets/downloads/games/throw-a-watermelon-win-1.1.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows v1.1</a></br><a href="/assets/downloads/games/throw-a-watermelon-win.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows Jam Version</a>'
+    text: '<a href="/assets/downloads/games/throw-a-watermelon-win-1.2.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows v1.2</a></br><a href="/assets/downloads/games/throw-a-watermelon-win-1.1.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows v1.1</a></br><a href="/assets/downloads/games/throw-a-watermelon-win.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows Jam Version</a>'
   - title: "by Hoani Bryson"
     text: '&emsp;Sept 2024'
 gallery:
