@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/games/banner/watermelon.png
 sidebar:
   - title: "Downloads"
-    text: '<a href="/assets/downloads/games/throw-a-watermelon-win-1.2.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows v1.2</a><a href="/assets/downloads/games/throw-a-watermelon-win-1.1.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows v1.1</a><a href="/assets/downloads/games/throw-a-watermelon-win.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows Jam Version</a>'
+    text: '<a href="/assets/downloads/games/throw-a-watermelon-win-1.3.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows v1.3</a><a href="/assets/downloads/games/throw-a-watermelon-win-1.2.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows v1.2</a><a href="/assets/downloads/games/throw-a-watermelon-win-1.1.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows v1.1</a><a href="/assets/downloads/games/throw-a-watermelon-win.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows Jam Version</a>'
   - title: "by Hoani Bryson"
     text: '&emsp;Sept 2024'
 gallery:
@@ -28,7 +28,7 @@ The theme of the Jam was `In a simulation`.
 
 After seeing the popularity of Throw a Watermelon on gx.games, I released later versions with several qulaity of life improvements and bug fixes.
 
-The game is built around gamemaker's physics engine - it has a few interesting quirks; but for the most part allows for a lot of fun freedom for building things.
+The game is built around gamemaker's physics engine - it has a few interesting quirks; but for the most part allows for a lot of freedom for building things.
 
 <a href="https://gx.games/games/4tl1i7/throw-a-watermelon/" class="btn btn--primary" style="margin-left:20%;width:60%">Play in Browser</a>
 
