@@ -52,4 +52,4 @@ $$ \widehat{q} = \cos\left(\frac{\theta}{2}\right) + \sin\left(\frac{\theta}{2}\
 ## More quaternions
 
 - Cheatsheet on [Quaternion Maths](/guides/engineering/mathematics/quaternion-rotations)
-- Ben Eater and 3Blue1Brown's quaternion interactive videos https://eater.net/quaternions
+- Ben Eater and 3Blue1Brown's quaternion interactive videos [](https://eater.net/quaternions)
