@@ -47,3 +47,9 @@ $$ \widehat{n} = \begin{bmatrix} x \\ y \\ z \end{bmatrix} $$
 And an angle which we will rotate around the unit vector by, $$ \theta $$.
 
 $$ \widehat{q} = \cos\left(\frac{\theta}{2}\right) + \sin\left(\frac{\theta}{2}\right) (x\hat{i} + y\hat{j} + z\hat{k}) $$
+
+
+## More quaternions
+
+- Cheatsheet on [Quaternion Maths](/guides/engineering/mathematics/quaternion-rotations)
+- Ben Eater and 3Blue1Brown's quaternion interactive videos https://eater.net/quaternions
