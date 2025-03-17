@@ -22,7 +22,7 @@ Template functions can be implicitly instantiated when they are called:
 double pos = clamp(x, 0.0, 10.0);
 ```
 
-Providing the definition of `inBounds` without specifying the type of `T` (i.e/ `inBounds<T>`) is called "Template argument deduction".
+Providing the definition of `clamp` without specifying the type of `T` (i.e/ `clamp<T>`) is called "Template argument deduction".
 
 ### Non-Type template parameters
 
