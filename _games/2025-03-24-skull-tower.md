@@ -1,7 +1,7 @@
 ---
 title: "Skull Tower"
 excerpt: "Destroy the bone generals and stop them from reviving Skelletrex"
-permalink: /fight-fight-revolution
+permalink: /skull-tower
 header:
   image: /assets/images/games/banner/skull-tower.png
   teaser: /assets/images/games/banner/skull-tower.png
