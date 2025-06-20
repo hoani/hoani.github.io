@@ -8,6 +8,7 @@ header:
 
 #### Recent Games
 
+| <figure style="margin-bottom:0"><a href="/work-work-balance"><img src="/assets/images/games/wwb/thumbnail.png"></a></figure>  | Reject work, build things! |
 | <figure style="margin-bottom:0"><a href="/skull-tower"><img src="/assets/images/games/skull-tower/thumbnail.png"></a></figure>  | Damn bonies! Defeat the bone generals so Skelletrex doesn't come back! |
 | <figure style="margin:0"><a href="/fight-fight-revolution"><img src="/assets/images/games/ffr/thumbnail.png"></a></figure>  | Save the humanity from Skelletrex and his bone brigade. |
 | <figure style="margin:0"><a href="/throw-a-watermelon"><img src="/assets/images/games/watermelon/thumbnail.png"></a></figure>  | Build different constructs to throw a watermelon. |

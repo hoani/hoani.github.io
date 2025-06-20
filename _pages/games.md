@@ -9,6 +9,9 @@ classes: wide
 
 ## 2025
 
+<figure class="half" style="margin-bottom:0"><a href="/work-work-balance"><img src="/assets/images/games/wwb/thumbnail.png"></a></figure> 
+<p style="margin-top:0">Reject work, build things!</p>
+
 <figure class="half" style="margin-bottom:0"><a href="/skull-tower"><img src="/assets/images/games/skull-tower/thumbnail.png"></a></figure> 
 <p style="margin-top:0">Damn bonies! Defeat the bone generals so Skelletrex doesn't come back!</p>
 
