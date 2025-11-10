@@ -2,7 +2,7 @@
 title: "Concurrent Python"
 excerpt: "Multithreading and Multiprocessing in Python"
 permalink: /guides/software/python/concurrent
-classes: wide
+toc: true
 categories:
   - guide
   - python
@@ -15,13 +15,13 @@ Because of the GIL (global interpretter lock), python byte code cannot run in pa
 Basic multithreading is similar to threads in c++:
 
 ```python
-import threading
+from threading import Thread
 
 def printer(a, b):
     print(f"{a} {b}")
 
-t1 = threading.Thread(target=printer, args=("Hello", "World"))
-t2 = threading.Thread(target=printer, args=("Good", "night"))
+t1 = Thread(target=printer, args=("Hello", "World"))
+t2 = Thread(target=printer, args=("Good", "night"))
 
 t1.start()
 t2.start()
@@ -43,7 +43,7 @@ with ThreadPoolExecutor(max_workers=10) as executor:
         executor.submit(printer, "Hello", i)
 ```
 
-## Inter-thread communication
+## Data Sharing
 
 ### Condition variables
 
@@ -105,3 +105,88 @@ with ThreadPoolExecutor() as executor:
     executor.submit(producer)
     executor.submit(consumer)
 ```
+
+# Multiprocessing
+
+Multiprocessing spawns new processes, each has their own GIL, so we can run CPU-bound tasks in parallel.
+
+```py
+from multiprocessing import Process
+
+def printer(a, b):
+    print(f"{a} {b}")
+
+if __name__ == '__main__':
+    p1 = Process(target=printer, args=("Hello", "World"))
+    p2 = Process(target=printer, args=("Good", "night"))
+
+    p1.start()
+    p2.start()
+
+    p1.join()
+    p2.join()
+```
+
+Pools are also available. There are a few ways of using these, such as `pool.map` where a list is passed. Callbacks can also be applied to get results from execution.
+
+```py
+from multiprocessing import Pool
+
+def formatter(a, b):
+    return(f"{a} {b}")
+
+if __name__ == '__main__':
+    with Pool(processes=10) as pool:
+        for i in range(100):
+            pool.apply_async(formatter, ("Hello", i), 
+                callback=print)
+        
+        pool.close()
+        pool.join()
+```
+
+### Queues
+
+```py
+from multiprocessing import Process, Queue
+
+def printer(q):
+    while (v := q.get()) is not None:
+        a, b = v
+        print(f"{a} {b}")
+
+if __name__ == '__main__':
+    q = Queue()
+    p = Process(target=printer, args=(q,))
+   
+    p.start()
+    q.put(("Hello", "World"))
+    q.put(("Good", "Night"))
+    q.put(None)
+    p.join()
+```
+
+### Pipes
+
+```py
+from multiprocessing import Process, Pipe
+
+def piper(conn):
+    rx = conn.recv()
+    print(f"process in {rx}")
+    conn.send(["Good", "Night"])
+    conn.close()
+
+if __name__ == '__main__':
+    p_conn, c_conn = Pipe()
+    p = Process(target=piper, args=(c_conn,))
+   
+    p.start()
+    p_conn.send(["Hello", "World"])
+    rx = p_conn.recv()
+    print(f"process out {rx}")
+    p_conn.close()
+    p.join()
+```
+
+
