@@ -7,6 +7,11 @@ entries_layout: grid
 classes: wide
 ---
 
+## 2026
+
+<figure class="half" style="margin-bottom:0"><a href="/final-scoundrel"><img src="/assets/images/games/final-scoundrel/thumbnail.png"></a></figure> 
+<p style="margin-top:0">Final Fantasy meets Scoundrel</p>
+
 ## 2025
 
 <figure class="half" style="margin-bottom:0"><a href="/work-work-balance"><img src="/assets/images/games/wwb/thumbnail.png"></a></figure> 
