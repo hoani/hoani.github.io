@@ -6,7 +6,7 @@ classes: wide
 categories:
   - guide
   - cpp
-  - cpp-guide
+  - software
 ---
 
 Define a new vector:

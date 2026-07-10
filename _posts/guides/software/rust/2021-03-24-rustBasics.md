@@ -6,7 +6,7 @@ permalink: /guides/software/rust/basics
 categories:
   - guide
   - rust
-  - rust-guide
+  - software
 ---
 
 ## Command line Basics

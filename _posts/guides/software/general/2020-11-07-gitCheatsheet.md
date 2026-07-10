@@ -6,7 +6,6 @@ toc: true
 categories:
   - guide
   - software
-  - software-guide
 ---
 
 ### Branches

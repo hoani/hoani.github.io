@@ -6,8 +6,7 @@ permalink: /guides/engineering/ros/ros1
 categories:
   - guide
   - software
-  - software-guide
-  - ros-guide
+  - ros
 ---
 
 ### Environment Setup

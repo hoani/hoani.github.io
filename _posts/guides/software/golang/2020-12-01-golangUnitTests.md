@@ -6,7 +6,7 @@ permalink: /guides/software/golang/testing
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 ```golang

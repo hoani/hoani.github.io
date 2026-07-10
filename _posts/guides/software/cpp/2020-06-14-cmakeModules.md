@@ -6,9 +6,8 @@ classes: wide
 categories:
   - guide
   - cpp
-  - cpp-guide
+  - software
   - cmake
-  - cmake-guide
 ---
 
 Most CMake projects will start to break the project up:

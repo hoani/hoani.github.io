@@ -6,7 +6,6 @@ toc: true
 categories:
   - guide
   - electronics
-  - electronics-guide
 ---
 
 ## Timing

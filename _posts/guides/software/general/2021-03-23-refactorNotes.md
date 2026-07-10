@@ -6,7 +6,6 @@ permalink: /guides/software/refactoring
 categories:
   - guide
   - software
-  - software-guide
 ---
 
 The following notes are from [Martin Fowler's Refactoring](https://martinfowler.com/books/refactoring.html)

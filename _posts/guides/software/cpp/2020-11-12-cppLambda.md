@@ -5,7 +5,7 @@ permalink: /guides/software/cpp/lambda
 categories:
   - guide
   - cpp
-  - cpp-guide
+  - software
 ---
 
 A basic lambda which just adds two integer values is defined:

@@ -6,7 +6,6 @@ classes: wide
 categories:
   - guide
   - python
-  - python-guide
 ---
 
 Decorators let us extend a function's behaviour.

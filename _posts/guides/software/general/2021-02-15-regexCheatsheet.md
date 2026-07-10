@@ -6,10 +6,9 @@ toc: true
 categories:
   - guide
   - python
-  - python-guide
   - cpp
-  - cpp-guide
-  - software-guide
+  - cpp
+  - software
 ---
 
 Regex tester: [regextester.com](https://www.regextester.com/)

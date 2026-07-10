@@ -6,7 +6,6 @@ toc: true
 categories:
   - guide
   - electronics
-  - electronics-guide
 ---
 
 ![Altium Standards](/assets/images/posts/guides/altiumstd/3d.png)

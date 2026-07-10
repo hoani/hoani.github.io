@@ -6,7 +6,7 @@ permalink: /guides/software/golang/cheatsheet
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 ## Command Line

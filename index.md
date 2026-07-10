@@ -1,10 +1,24 @@
 ---
 layout: home
 author_profile: true
-title: Hoani Bryson - Engineer
+title: Cool things I made
 header:
   image: /assets/images/pages/home/banner.png
 ---
+
+#### Recent Games
+
+| <figure style="margin-bottom:0"><a href="/final-scoundrel"><img src="/assets/images/games/final-scoundrel/thumbnail.png"></a></figure>  | Final Fantasy meets Scoundrel |
+| <figure style="margin-bottom:0"><a href="/work-work-balance"><img src="/assets/images/games/wwb/thumbnail.png"></a></figure>  | Reject work, build things! |
+| <figure style="margin-bottom:0"><a href="/skull-tower"><img src="/assets/images/games/skull-tower/thumbnail.png"></a></figure>  | Damn bonies! Defeat the bone generals so Skelletrex doesn't come back! |
+| <figure style="margin:0"><a href="/fight-fight-revolution"><img src="/assets/images/games/ffr/thumbnail.png"></a></figure>  | Save the humanity from Skelletrex and his bone brigade. |
+| <figure style="margin:0"><a href="/throw-a-watermelon"><img src="/assets/images/games/watermelon/thumbnail.png"></a></figure>  | Build different constructs to throw a watermelon. |
+| <figure style="margin:0"><a href="/dream"><img src="/assets/images/games/dream/thumbnail.png"></a></figure> | Fight off your nightmares and survive another night. |
+| <figure style="margin:0"><a href="/clover"><img src="/assets/images/games/clover/thumbnail.png"></a></figure> | An action packed arcade shooter. <br/>Fight off endless hoards of bandits. |
+
+#### Leetware Youtube Channel
+<figure class="half" style="margin:0"><a href="https://www.youtube.com/@leetwareltd"><img src="/assets/images/youtube/thumbnail.png"></a></figure> 
+<p style="margin-top:0">A channel for my projects and tutorials</p>
 
 ### Useful things
 

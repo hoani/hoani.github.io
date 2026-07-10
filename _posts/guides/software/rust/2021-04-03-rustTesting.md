@@ -6,7 +6,7 @@ permalink: /guides/software/rust/testing
 categories:
   - guide
   - rust
-  - rust-guide
+  - software
 ---
 
 ## Unit Testing

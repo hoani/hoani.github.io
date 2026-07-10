@@ -6,7 +6,7 @@ toc: true
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 The [context package](https://golang.org/pkg/context) standardizes a way of running go routines which are cancellable. Each `context.Context` object can have children, and when a parent is cancelled, so are its children. 

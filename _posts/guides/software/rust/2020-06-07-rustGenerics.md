@@ -6,7 +6,7 @@ permalink: /guides/software/rust/generics
 categories:
   - guide
   - rust
-  - rust-guide
+  - software
 ---
 
 Generics typically start with `<T>` by convention and are use to generalize types.

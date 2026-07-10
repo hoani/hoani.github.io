@@ -6,7 +6,8 @@ permalink: /guides/software/protobuf
 categories:
   - guide
   - software
-  - software-guide
+  - golang
+  - protobuf
 ---
 
 ## Installation

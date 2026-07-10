@@ -6,8 +6,7 @@ toc: true
 categories:
   - guide
   - mathematics
-  - mathematics-guide
-  - octave-guide
+  - octave
 ---
 
 Special thanks to Steve Brunton's [Control Bootcamp](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)

@@ -6,7 +6,7 @@ permalink: "/guides/software/golang/conditional-compilation"
 categories:
   - guide
   - golang
-  - golang-guide
+  - software
 ---
 
 {% include video id="mIfzwTfXnWI" provider="youtube" %}

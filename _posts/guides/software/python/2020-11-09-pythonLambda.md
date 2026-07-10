@@ -5,7 +5,6 @@ permalink: /guides/software/python/lambda
 categories:
   - guide
   - python
-  - python-guide
 ---
 
 ## Syntax

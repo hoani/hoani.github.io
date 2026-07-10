@@ -6,7 +6,7 @@ permalink: /guides/software/docker-multiarch
 categories:
   - guide
   - software
-  - software-guide
+  - docker
 ---
 
 The purpose of this article is to build and run images for different architectures. 

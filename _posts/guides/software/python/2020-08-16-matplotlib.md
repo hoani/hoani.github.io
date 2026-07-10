@@ -6,7 +6,7 @@ permalink: /guides/software/python/matplotlib
 categories:
   - guide
   - python
-  - python-guide
+  - software
 ---
 
 <figure class="third">

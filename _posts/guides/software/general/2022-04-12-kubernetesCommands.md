@@ -6,7 +6,6 @@ toc: true
 categories:
   - guide
   - software
-  - software-guide
 ---
 
 This is a reminder of kubectl commands for those like me who won't use `kubectl` often.
