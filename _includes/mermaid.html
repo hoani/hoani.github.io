@@ -1,0 +1,10 @@
+<script src="https://unpkg.com/mermaid@10.9.0/dist/mermaid.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function (e) {
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: "dark",
+        });
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    });
+</script>

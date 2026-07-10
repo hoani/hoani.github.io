@@ -8,7 +8,7 @@ categories:
   - mathematics
 ---
 
-As mentioned in [Understanding Quaternion Rotations](2020-07-26-quaternionsUnderstandingRotations/), to construct a quaternion, we need to know:
+As mentioned in [Understanding Quaternion Rotations](/guides/engineering/mathematics/quaternion-basics), to construct a quaternion, we need to know:
 * a vector in 3-space to rotate about
 * the shortest angle to rotate about that vector
 
