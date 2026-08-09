@@ -9,7 +9,6 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
-    base64 (0.2.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -201,7 +200,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.20.0)
+    json (2.21.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
