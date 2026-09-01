@@ -132,8 +132,7 @@ Given a line AB and a circle C:
 ## Polygon Intersects Circle
 
 If we have polygon A, and circle B:
-* For each line of A:
- * See if that line intersects the circle (see [Line Intersects Circle](#line-intersects-circle))
+* For each line of A check if that line intersects the circle (see [Line Intersects Circle](#line-intersects-circle))
 
 ## Circle Intersects Circle
 
