@@ -76,7 +76,7 @@ The general idea is:
 * Convert your point P into a line PQ, where Q is a point far away from P 
   * for example, Q could be at point $$P + (0, 10e^6)$$
   * the important part is that Q must be outside of the polygon.
-* For each line that makes up the polygon, count the intersections with line PQ
+* For each line that makes up the polygon, determine if that line intersects line PQ (see [Line Intersection](#line-intersection))
 * If the number of intersections is odd, P is inside the polygon, otherwise it is outside the polygon.
 
 <figure>
