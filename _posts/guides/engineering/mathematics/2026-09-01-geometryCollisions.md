@@ -54,7 +54,7 @@ If $$P_{\infty}$$ is inside AB, then $$Q=P_{\infty}$$ otherwise we clamp it to t
 $$
 \begin{align}
 u_{AB} &= \frac{B - A}{||B - A||}  \\
-d &= P - A \cdot u_{AB} \\
+d &= (P - A) \cdot u_{AB} \\
 p_{\infty} &= A + u_{AB} d \\
 Q &= \operatorname{clamp}(p_{\infty}, A, B)
 \end{align}
