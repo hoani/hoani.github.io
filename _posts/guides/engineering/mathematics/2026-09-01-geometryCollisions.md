@@ -63,3 +63,87 @@ $$
 Where:
 * $$u_{AB}$$ is the unit vector of the line $$AB$$
 * $$d$$ is the distance that the projected $$P$$ lies across the line $$AB$$
+
+# Polygons
+
+Polygon algorithms generalize a bunch of different shapes, I used these to handle triangles and rectangles. The algorithms here also don't care if the polygon is convex or concave, which is quite handy.
+
+## Point in Polygon
+
+[geeksforgeeks.org](https://www.geeksforgeeks.org/dsa/how-to-check-if-a-given-point-lies-inside-a-polygon/) provided an excellent algorithm for determining if a point is in a polygon.
+
+The general idea is:
+* Convert your point P into a line PQ, where Q is a point far away from P 
+  * for example, Q could be at point $$P + (0, 10e^6)$$
+  * the important part is that Q must be outside of the polygon.
+* For each line that makes up the polygon, count the intersections with line PQ
+* If the number of intersections is odd, P is inside the polygon, otherwise it is outside the polygon.
+
+<figure>
+    <img src="/assets/images/posts/guides/geometry/point-in-polygon.png">
+</figure>
+
+## Line intersects Polygon
+
+There are two cases to detect:
+* The line intersects the polygon's outer lines
+* Line is contained within the polygon
+
+To detect line intersection:
+* For each line of the polygon, does that line AB intersect (see [Line Intersection](#line-intersection))
+* If there are no line intersections, check if point A of line AB is in the polygon (see [Point in Polygon](#point-in-polygon)) 
+
+## Polygon intersects Polygon
+
+There are two cases to detect here too:
+* polygon contained in polygon
+* polygon crosses polygon perimeter
+
+If we have polygon A and polygon B:
+* For each line in polygon A, check if it intersects polygon B (see [Line intersects Polygon](#line-intersects-polygon))
+
+This handles both cases since we also check if a line is contained in the polygon
+
+# Circles
+
+## Point in Circle
+
+If we have a circle A and a point P, check that the distance between P and the circle's center is less or equal to the circle's radius.
+
+For efficiency, I compare the distance squared instead:
+
+$$
+r^2 \leq (C_x - P_x)^2 + (C_y - P_y)^2
+$$
+
+Where:
+* $$r$$ is the circle's radius
+* $$C$$ is the center point of the circle
+* $$P$$ is the point of interest
+
+This saves on computing a square root which can be computationally inefficient.
+
+## Line Intersects Circle
+
+Given a line AB and a circle C:
+* Find the closest point P on line AB to the circle C's center point (see [Closest Point On Line](#closest-point-on-line))
+* Check if P is in the circle (see [Point in Circle](#point-in-circle))
+
+## Polygon Intersects Circle
+
+If we have polygon A, and circle B:
+* For each line of A:
+ * See if that line intersects the circle (see [Line Intersects Circle](#line-intersects-circle))
+
+## Circle Intersects Circle
+
+If we have circle A and circle B, this is very similar to point in circle, but we sum the radius's together:
+
+$$
+(r_A + r_B)^2 \leq (A_x - B_x)^2 + (A_y - B_y)^2
+$$
+
+Where:
+* $$r_A$$ and $$r_B$$ are the radii of circles A and B respectively
+* $$A$$ is the center point of circle A
+* $$B$$ is the center point of circle B
