@@ -8,7 +8,7 @@ categories:
   - mathematics
 ---
 
-For both [Throw a Watermelon](/throw-a-watermelon) and [Trick Shot II](trick-shot-2), I wrote my own collision methods to determine closest points to shapes, collisions, overlaps etc. For trick-shot which can run on a microcontroller, it was especially important that the alogorithms were efficient and ran with deterministic complexity.
+For both [Throw a Watermelon](/throw-a-watermelon) and [Trick Shot II](/trick-shot-2), I wrote my own collision methods to determine closest points to shapes, collisions, overlaps etc. For trick-shot which can run on a microcontroller, it was especially important that the alogorithms were efficient and ran with deterministic complexity.
 
 I'm documenting the selected algorithms here.
 

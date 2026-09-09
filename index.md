@@ -8,6 +8,7 @@ header:
 
 #### Recent Games
 
+| <figure style="margin-bottom:0"><a href="/trick-shot-2"><img src="/assets/images/games/trickshot2/thumbnail.png"></a></figure>  | Retro Physics Puzzler |
 | <figure style="margin-bottom:0"><a href="/truly-madly-deeply"><img src="/assets/images/games/tmd/thumbnail.png"></a></figure>  | Cosy romance otome |
 | <figure style="margin-bottom:0"><a href="/final-scoundrel"><img src="/assets/images/games/final-scoundrel/thumbnail.png"></a></figure>  | Final Fantasy meets Scoundrel |
 | <figure style="margin-bottom:0"><a href="/work-work-balance"><img src="/assets/images/games/wwb/thumbnail.png"></a></figure>  | Reject work, build things! |
