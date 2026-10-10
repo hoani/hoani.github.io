@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>3310-ebirthday26</title>
+<style>html,body{margin:0;padding:0;overflow:hidden}</style>
+</head>
+<body>
+<script src="wasm_exec.js"></script>
+<script>
+const go = new Go();
+WebAssembly.instantiateStreaming(fetch("./game.wasm"), go.importObject).then(result => {
+	go.run(result.instance);
+});
+</script>
+</body>
+</html>
