@@ -102,8 +102,7 @@ There are two cases to detect here too:
 
 If we have polygon A and polygon B:
 * For each line in polygon A, check if it intersects polygon B (see [Line intersects Polygon](#line-intersects-polygon))
-
-This handles both cases since we also check if a line is contained in the polygon
+* For each point in polygon B, check if it is contained in polygon A (see [Point in Polygon](#point-in-polygon)) 
 
 # Circles
 
