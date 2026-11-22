@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/games/banner/break-an-egg.png
 sidebar:
   - title: "Downloads"
-    text: '<a href="/assets/downloads/games/ffr-win-1.0.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows</a>'
+    text: '<a href="/assets/downloads/games/break-an-egg-win-1.0.zip" class="btn btn--primary download-btn"><img src="/assets/icons/windows.svg" class="download-svg"/>Windows</a>'
   - title: "by Hoani Bryson"
     text: '&emsp;Nov 2026'
 gallery:
@@ -19,9 +19,9 @@ gallery:
     image_path: /assets/images/games/break-an-egg/play.png
 ---
 
-Skelletrex and his bone brigade have enslaved the human race. They are taking people's bones to make more bone soldiers.
+Try to break the egg.
 
-The human revolution have intel that Skelletrex is hosting a local martial arts tournament in his garage. Defeat Skelletrex at his tournament and save the human race.
+This is a physics sandbox game where you break eggs. Alternatively, you can build a level to challenge others to break your eggs.
 
 **About**
 

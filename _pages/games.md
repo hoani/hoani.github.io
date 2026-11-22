@@ -9,6 +9,9 @@ classes: wide
 
 ## 2026
 
+<figure class="half" style="margin-bottom:0"><a href="/break-an-egg"><img src="/assets/images/games/break-an-egg/thumbnail.png"></a></figure> 
+<p style="margin-top:0">Imagine, Build, Break</p>
+
 <figure class="half" style="margin-bottom:0"><a href="/trick-shot-2"><img src="/assets/images/games/trickshot2/thumbnail.png"></a></figure> 
 <p style="margin-top:0">Retro Physics Puzzler</p>
 
