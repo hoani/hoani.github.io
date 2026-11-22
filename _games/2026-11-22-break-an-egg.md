@@ -43,7 +43,7 @@ Design, Software, Art, Modelling
 by **Hoani Bryson**
 
 Sound
-by **** (via GameDevMarket)
+by **Levi Bilas Boas** (via GameDevMarket)
 
 Fonts
 by **Chequered Ink** and **HawtPixel**
